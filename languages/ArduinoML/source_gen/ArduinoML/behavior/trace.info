@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="Action_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ArduinoML.behavior.Action_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="36" endPosition="0" unitName="ArduinoML.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="Component_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Component_BehaviorDescriptor" />
+  <unitInfo fileName="Component_IN_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Component_IN_BehaviorDescriptor" />
+  <unitInfo fileName="Component_OUT_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Component_OUT_BehaviorDescriptor" />
+  <unitInfo fileName="Machine_State_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Machine_State_BehaviorDescriptor" />
+  <unitInfo fileName="Named_Element_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ArduinoML.behavior.Named_Element_BehaviorDescriptor" />
+  <unitInfo fileName="Signal_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Signal_BehaviorDescriptor" />
+  <unitInfo fileName="Sketch_BehaviorDescriptor.java" startLine="9" startPosition="0" endLine="22" endPosition="0" unitName="ArduinoML.behavior.Sketch_BehaviorDescriptor" />
+  <unitInfo fileName="Transition_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Transition_BehaviorDescriptor" />
+</debugInfo>
+

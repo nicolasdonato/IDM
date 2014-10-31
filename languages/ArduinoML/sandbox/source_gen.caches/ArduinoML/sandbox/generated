@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="14xgaxdeasi3np8d2dton9jw1ynpcwr">
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <common hash="-edxths4jd6l6ps8geespapg3har4wbk" dependsOnNodes="true">
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+  </common>
+  <source id="1275236291302744135" name="TurnsOnLight" hash="-dyc91hs7ffmeel6so4j62j4co38aw5k">
+    <file name="map_Sketch.java" />
+  </source>
+</dependencies>
+

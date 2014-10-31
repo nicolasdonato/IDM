@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="ArduinoML.sandbox.map_Sketch" file="map_Sketch.java" />
+</dependenciesRoot>
+

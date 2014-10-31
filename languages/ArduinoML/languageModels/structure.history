@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="-1" />
+    </dependencies>
+    <rename id="e532.1275236291302507178" type="PROPERTY" from="ame" to="name" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="0" />
+    </dependencies>
+    <rename id="e532.1275236291302713202" type="PROPERTY" from="al" to="value" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="1" />
+    </dependencies>
+    <rename id="e532.1275236291302714889" type="PROPERTY" from="y" to="type" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="2" />
+    </dependencies>
+    <rename id="e532.1275236291302728373" type="PROPERTY" from="io" to="pin" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="3" />
+    </dependencies>
+    <rename id="e532.1275236291302731468" type="CHILD" from="ac" to="machineState" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="4" />
+    </dependencies>
+    <rename id="e532.1275236291302734563" type="REFERENCE" from="ach" to="machineStates" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="5" />
+    </dependencies>
+    <rename id="e532.1275236291302740947" type="REFERENCE" from="ran" to="transition" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="6" />
+    </dependencies>
+    <rename id="e532.1275236291302744174" type="REFERENCE" from="r" to="transition" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="7" />
+    </dependencies>
+    <rename id="e532.1275236291302756917" type="REFERENCE" from="i" to="signal" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="8" />
+    </dependencies>
+    <rename id="e532.1275236291302763265" type="CHILD" from="c" to="ations" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="9" />
+    </dependencies>
+    <rename id="e532.1275236291302763265" type="CHILD" from="ations" to="actions" />
+  </StructureModification>
+</history>
+

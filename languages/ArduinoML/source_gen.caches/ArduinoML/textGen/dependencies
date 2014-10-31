@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="ArduinoML.textGen.Sketch_TextGen" file="Sketch_TextGen.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="jetbrains.mps.textGen.SNodeTextGen" />
+  </dependency>
+</dependenciesRoot>
+
