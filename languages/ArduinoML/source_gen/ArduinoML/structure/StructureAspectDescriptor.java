@@ -14,7 +14,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Action").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value").children(new String[]{"signaux"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Action").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value").references("signal").create();
       case 1:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Component").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("pin").references("signal").abstract_().create();
       case 2:
@@ -22,13 +22,13 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 3:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Component_OUT").super_("ArduinoML.structure.Component").parents("ArduinoML.structure.Component").create();
       case 4:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Machine_State").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").children(new String[]{"actions"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Machine_State").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value").children(new String[]{"actions"}, new boolean[]{true}).create();
       case 5:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Named_Element").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("name").abstract_().create();
       case 6:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Signal").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("type").references("transition", "components").create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Signal").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("type").references("transition", "component").create();
       case 7:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Sketch").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"machineStates", "components", "transitions"}, new boolean[]{true, true, true}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Sketch").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"machineStates", "components", "transitions", "signaux"}, new boolean[]{true, true, true, true}).create();
       case 8:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Transition").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").references("machineStates").create();
       default:

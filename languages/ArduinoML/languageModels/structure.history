@@ -66,5 +66,23 @@
     </dependencies>
     <rename id="e532.1275236291302763265" type="CHILD" from="ations" to="actions" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="10" />
+    </dependencies>
+    <rename id="e532.2574346429266041758" type="PROPERTY" from="alu" to="value" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="11" />
+    </dependencies>
+    <rename id="e532.2574346429266233660" type="REFERENCE" from="sgnaux" to="signal" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="12" />
+    </dependencies>
+    <rename id="e532.1275236291302769725" type="REFERENCE" from="components" to="component" />
+  </StructureModification>
 </history>
 

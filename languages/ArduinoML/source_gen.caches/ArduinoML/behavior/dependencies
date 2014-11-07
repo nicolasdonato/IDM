@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="ArduinoML.behavior.Action_BehaviorDescriptor" file="Action_BehaviorDescriptor.java">
+    <classNode dependClassName="ArduinoML.behavior.Named_Element_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
   <dependency className="ArduinoML.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">

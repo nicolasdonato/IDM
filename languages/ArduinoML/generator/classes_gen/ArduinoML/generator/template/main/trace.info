@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="QueriesGenerated.java" startLine="7" startPosition="0" endLine="11" endPosition="0" unitName="ArduinoML.generator.template.main.QueriesGenerated" />
+  <unitInfo fileName="QueriesGenerated.java" startLine="13" startPosition="0" endLine="73" endPosition="0" unitName="ArduinoML.generator.template.main.QueriesGenerated" />
+  <root nodeRef="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265464435">
+    <nodeInfo nodeId="2574346429265620304" fileName="QueriesGenerated.java" startLine="21" startPosition="112" endLine="22" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="2574346429265615766" fileName="QueriesGenerated.java" startLine="21" startPosition="112" endLine="22" endPosition="85" />
+  </root>
+  <root nodeRef="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265657398">
+    <nodeInfo nodeId="2574346429265677389" fileName="QueriesGenerated.java" startLine="25" startPosition="112" endLine="26" endPosition="85" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="2574346429265676214" fileName="QueriesGenerated.java" startLine="25" startPosition="112" endLine="26" endPosition="85" />
+  </root>
+  <root nodeRef="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429266028513">
+    <nodeInfo nodeId="2574346429266054378" fileName="QueriesGenerated.java" startLine="29" startPosition="112" endLine="30" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266037917" fileName="QueriesGenerated.java" startLine="33" startPosition="112" endLine="34" endPosition="70" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="2574346429266053170" fileName="QueriesGenerated.java" startLine="29" startPosition="112" endLine="30" endPosition="69" />
+    <scopeInfo nodeId="2574346429266037367" fileName="QueriesGenerated.java" startLine="33" startPosition="112" endLine="34" endPosition="70" />
+  </root>
+  <root nodeRef="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429266260251">
+    <nodeInfo nodeId="2574346429266415788" fileName="QueriesGenerated.java" startLine="37" startPosition="112" endLine="38" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266291845" fileName="QueriesGenerated.java" startLine="41" startPosition="112" endLine="42" endPosition="132" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266498284" fileName="QueriesGenerated.java" startLine="45" startPosition="94" endLine="46" endPosition="114" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266520376" fileName="QueriesGenerated.java" startLine="49" startPosition="94" endLine="50" endPosition="113" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="2574346429266413569" fileName="QueriesGenerated.java" startLine="37" startPosition="112" endLine="38" endPosition="69" />
+    <scopeInfo nodeId="2574346429266286102" fileName="QueriesGenerated.java" startLine="41" startPosition="112" endLine="42" endPosition="132" />
+    <scopeInfo nodeId="2574346429266497577" fileName="QueriesGenerated.java" startLine="45" startPosition="94" endLine="46" endPosition="114" />
+    <scopeInfo nodeId="2574346429266519669" fileName="QueriesGenerated.java" startLine="49" startPosition="94" endLine="50" endPosition="113" />
+  </root>
+  <root nodeRef="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/3050462586589027682">
+    <nodeInfo nodeId="2574346429265605169" fileName="QueriesGenerated.java" startLine="17" startPosition="112" endLine="18" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266067643" fileName="QueriesGenerated.java" startLine="53" startPosition="120" endLine="54" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266008449" fileName="QueriesGenerated.java" startLine="57" startPosition="120" endLine="58" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266012439" fileName="QueriesGenerated.java" startLine="61" startPosition="120" endLine="62" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266389547" fileName="QueriesGenerated.java" startLine="65" startPosition="120" endLine="66" endPosition="75" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="2574346429266390790" fileName="QueriesGenerated.java" startLine="69" startPosition="120" endLine="70" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="2574346429265604432" fileName="QueriesGenerated.java" startLine="17" startPosition="112" endLine="18" endPosition="69" />
+    <scopeInfo nodeId="2574346429266067637" fileName="QueriesGenerated.java" startLine="53" startPosition="120" endLine="54" endPosition="83" />
+    <scopeInfo nodeId="2574346429266008443" fileName="QueriesGenerated.java" startLine="57" startPosition="120" endLine="58" endPosition="78" />
+    <scopeInfo nodeId="2574346429266012433" fileName="QueriesGenerated.java" startLine="61" startPosition="120" endLine="62" endPosition="83" />
+    <scopeInfo nodeId="2574346429266389541" fileName="QueriesGenerated.java" startLine="65" startPosition="120" endLine="66" endPosition="75" />
+    <scopeInfo nodeId="2574346429266390784" fileName="QueriesGenerated.java" startLine="69" startPosition="120" endLine="70" endPosition="83" />
+  </root>
 </debugInfo>
 

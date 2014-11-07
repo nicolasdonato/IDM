@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-dhhr52bkocrbi8j035ggseuhwkcbdz">
+<dependencies version="2" modelHash="-7r2niinx91tcmwecqm6gfqv85r1f5uy">
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" hash="-15uwdtf1y5pg0o0e3fc6ujv2qcw23bv" />
+  <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
+  <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" hash="c2qm1dxgcrkhoe9ypetl4u2309pwis3" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
-  <common hash="6zlf9vn3pmw95bfb2o7ahchdzhys9vw" dependsOnNodes="true">
+  <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" hash="e5zswcvgdspmt039m3gg97emcadi0ez" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="eq3fp08v6upfai1m6gdeuo6uiwuwyby" dependsOnNodes="true">
+    <dep root="2574346429265464435" />
+    <dep root="2574346429265657398" />
+    <dep root="2574346429266028513" />
+    <dep root="2574346429266260251" />
+    <dep root="3050462586589027682" />
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" />
     <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:c3548bac-30eb-4a2a-937c-0111d5697309(jetbrains.mps.lang.smodel.generator.smodelAdapter)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
     <file name="QueriesGenerated.java" />
   </common>
-  <source id="1275236291302447779" name="main" hash="-5jn1efoek80wq53bhv8hfrm2oqojxfy">
+  <source id="1275236291302447779" name="main" hash="628ux77fdtvgrqolfbblz8p8jq7jgq5">
     <dep model="r:00000000-0000-4000-0000-011c895902e9(jetbrains.mps.lang.generator.generator.baseLanguage.template.main@generator)" />
   </source>
-  <source id="3050462586589027682" name="map_Sketch" hash="-bt3rdf3uhzhzjkr4w4jeo2nky11x1j0">
+  <source id="3050462586589027682" name="map_Sketch" hash="-mdfb6ex009z9fgvdw94sgv7szgjvcf">
     <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.generator.runtime(MPS.Core/jetbrains.mps.generator.runtime@java_stub)" />
   </source>
+  <source id="2574346429265464435" name="reduce_Component_IN" hash="d0sqidiggm8ydok5uwrsp1fbkrgzoho" />
+  <source id="2574346429265657398" name="reduce_Component_OUT" hash="2xw0l6puy7s4d97377g7ssl084kdhwl" />
+  <source id="2574346429266028513" name="reduce_Machine_State_Initiate" hash="-1cjwc4qni7tntq6pc77ctcatmt2t2o4" />
+  <source id="2574346429266091526" name="reduce_Machine_State" hash="-62krs2d7a6tmxre4vpkmpyq1awswgr" />
+  <source id="2574346429266171523" name="reduce_Component_IN_Read" hash="d8k4c7jfx6z6ei2tcrkv8dkofqt5enj" />
+  <source id="2574346429266260251" name="reduce_Signal" hash="446n6t03fl0hyguzz9qsx7e47svjzya" />
 </dependencies>
 
