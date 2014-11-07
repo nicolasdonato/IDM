@@ -1,0 +1,17 @@
+int state = LOW; 
+float temp = 0; 
+
+void setup() {
+  pinMode (12, INPUT);
+  pinMode (11, OUTPUT);
+}
+void loop() {
+  temp = analogRead (12);
+  temp = temp * 0.48828125;
+  if (temp >= 29){    
+      state = HIGH;
+    } 
+  else { state = LOW; 
+}    
+  digitalWrite (11, state);  
+}
