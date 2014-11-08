@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="ArduinoML.sandbox.TurnsOnLight" file="TurnsOnLight.java">
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
-  </dependency>
+  <dependency className="ArduinoML.sandbox.Handling_Analogical_Bricks " file="Handling_Analogical_Bricks .txt" />
+  <dependency className="ArduinoML.sandbox.TurnsOnLight" file="TurnsOnLight.txt" />
 </dependenciesRoot>
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="3yatzy07vf9xli41slkm2fv4feng9lk">
+<dependencies version="2" modelHash="awat00x0jd2a485tg2y7qdeqw34dw5y">
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)" hash="-512neouetjjlikjz4oxnaj7euuids6f" />
   <dep model="r:a6ea542c-1409-4210-8c23-36795ce3a7f5(ArduinoML.typesystem)" hash="-4aj8wxc6fdfmecpwtbzyehytsd5jceu" />

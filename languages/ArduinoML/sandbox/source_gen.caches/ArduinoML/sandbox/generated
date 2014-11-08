@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-dwdllchykmj3n62p6xlwqre2g37buxl">
-  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
-  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
-  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
-  <common hash="-11mx3cmjf8yguz9nswzot6ss8xjpc95" dependsOnNodes="true">
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-  </common>
-  <source id="1275236291302744135" name="TurnsOnLight" hash="-78bhb9w0v8dyw6p9gz27nhfw2j8yyfw">
-    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
-    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
-    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
-    <file name="TurnsOnLight.java" />
+<dependencies version="2" modelHash="-7znzmarssup14nyfst4rllkcpn97x8p">
+  <common hash="-11mx3cmjf8yguz9nswzot6ss8xjpc95" />
+  <source id="1275236291302744135" name="TurnsOnLight" hash="-21p4b6cwsf157k2xvz1zlzyc9r81kt9">
+    <file name="TurnsOnLight.txt" />
+  </source>
+  <source id="2467399003607361162" name="Handling_Analogical_Bricks " hash="1wfvdb01yswreglmlg6nk28kptge0os">
+    <file name="Handling_Analogical_Bricks .txt" />
   </source>
 </dependencies>
 

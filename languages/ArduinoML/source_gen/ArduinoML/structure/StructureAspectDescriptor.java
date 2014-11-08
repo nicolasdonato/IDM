@@ -28,7 +28,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 6:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Signal").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("type").references("transition", "component").create();
       case 7:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Sketch").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element", "jetbrains.mps.lang.core.structure.INamedConcept").children(new String[]{"machineStates", "components", "transitions", "signaux"}, new boolean[]{true, true, true, true}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Sketch").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.execution.util.structure.IMainClass").children(new String[]{"machineStates", "components", "transitions", "signaux"}, new boolean[]{true, true, true, true}).create();
       case 8:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Transition").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value", "operator").references("machineStates", "component").create();
       default:
