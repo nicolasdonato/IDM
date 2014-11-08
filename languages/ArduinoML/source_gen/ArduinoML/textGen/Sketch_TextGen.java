@@ -54,9 +54,13 @@ public class Sketch_TextGen extends SNodeTextGen {
       this.append("(");
       this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(signal, "component", false), "pin")));
       this.append(")");
-      this.append(" ");
-      this.append(SPropertyOperations.getString(SLinkOperations.getTarget(signal, "transition", false), "operator"));
-      this.append(" ");
+      if (SPropertyOperations.getString(SLinkOperations.getTarget(signal, "transition", false), "operator") != null && !(SPropertyOperations.getString(SLinkOperations.getTarget(signal, "transition", false), "operator").equalsIgnoreCase(""))) {
+        this.append(" ");
+        this.append(SPropertyOperations.getString(SLinkOperations.getTarget(signal, "transition", false), "operator"));
+        this.append(" ");
+      } else {
+        this.append(" == ");
+      }
       this.append(SPropertyOperations.getString(SLinkOperations.getTarget(signal, "transition", false), "value"));
       this.append(") {");
       if (SPropertyOperations.getString_def(signal, "type", "analogic") == "analogic") {

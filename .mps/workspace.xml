@@ -39,313 +39,86 @@
       </option>
     </search_options>
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="TurnsOnLight" pinned="false" current="false" current-in-tab="false">
-              <entry file="mps://node://ArduinoML.sandbox/ArduinoML.sandbox/TurnsOnLight">
-                <provider selected="true" editor-type-id="MPSFileEditor">
-                  <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-                    <memento viewPositionX="0" viewPositionY="0">
-                      <selectionStack>
-                        <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                          <property name="hasNonTrivialSelection" value="false" />
-                          <property name="caretX" value="167" />
-                          <property name="caretXRelative" value="20" />
-                          <property name="sideSelectDirection" value="NONE" />
-                          <cellInfo cellId="property_operator" cellNumber="0" isInList="false">
-                            <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/1275236291302773000" />
-                          </cellInfo>
-                        </stackElement>
-                      </selectionStack>
-                      <errorLabels>
-                        <errorLabel errorText="" cellId="CP_property_name_1" cellNumber="0" isInList="false">
-                          <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/1275236291302750484" />
-                        </errorLabel>
-                        <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
-                          <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" />
-                        </errorLabel>
-                      </errorLabels>
-                      <folded />
-                      <enabledHints />
-                    </memento>
-                    <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                      <selectionStack />
-                      <errorLabels />
-                      <folded />
-                      <enabledHints />
-                    </inspectorMemento>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="Sketch_TextGen.java" pinned="false" current="false" current-in-tab="true">
-              <entry file="previewArduinoML.textGen/Sketch_TextGen.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.32415903" vertical-offset="978" max-vertical-offset="1632">
-                    <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Machine_State" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/Machine_State">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="202" />
-                    <property name="caretXRelative" value="32" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429266129942" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429266091526" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Component_IN" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/Component_IN">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="87" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="87" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265464435" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265464435" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Signal" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/Signal">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="15" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302714858" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302714858" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transition" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/Transition">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="167" />
-                    <property name="caretXRelative" value="52" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/7931582971432548192" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302714847" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Component_OUT" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/Component_OUT">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="95" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="87" />
-                    <property name="caretXRelative" value="4" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265657398" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265657398" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML#1275236291302447778/ArduinoML.generator.template.main@generator/main">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="2" viewPositionY="450">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="233" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429266260253" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Action" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/Action">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="31" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="emptyChildrenPlaceHolder" cellNumber="0" isInList="false">
-                      <node node_reference="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sketch" pinned="false" current="true" current-in-tab="true">
-        <entry file="mps://node://ArduinoML/ArduinoML.structure/Sketch">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="311" />
-                    <property name="caretXRelative" value="52" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorLabels />
-                <folded />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Action" pinned="false" current="false" current-in-tab="true">
+            <entry file="mps://node://ArduinoML/ArduinoML.structure/Action">
+              <provider selected="true" editor-type-id="MPSFileEditor">
+                <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+                  <memento viewPositionX="43" viewPositionY="0">
+                    <selectionStack>
+                      <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                        <property name="hasNonTrivialSelection" value="false" />
+                        <property name="caretX" value="219" />
+                        <property name="caretXRelative" value="36" />
+                        <property name="sideSelectDirection" value="NONE" />
+                        <cellInfo cellId="Constant_l8ulis_a" cellNumber="0" isInList="false">
+                          <node node_reference="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432878000" />
+                        </cellInfo>
+                      </stackElement>
+                    </selectionStack>
+                    <errorLabels />
+                    <folded />
+                    <enabledHints />
+                  </memento>
+                  <inspectorMemento currentlyEditedNode="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" viewPositionX="0" viewPositionY="0">
+                    <selectionStack />
+                    <errorLabels />
+                    <folded />
+                    <enabledHints />
+                  </inspectorMemento>
+                  <node node_ref="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432848961" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="TurnsOnLight" pinned="false" current="true" current-in-tab="true">
+            <entry file="mps://node://ArduinoML.sandbox/ArduinoML.sandbox/TurnsOnLight">
+              <provider selected="true" editor-type-id="MPSFileEditor">
+                <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+                  <memento viewPositionX="0" viewPositionY="396">
+                    <selectionStack>
+                      <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                        <property name="hasNonTrivialSelection" value="false" />
+                        <property name="caretX" value="79" />
+                        <property name="caretXRelative" value="0" />
+                        <property name="sideSelectDirection" value="NONE" />
+                        <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                          <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" />
+                        </cellInfo>
+                      </stackElement>
+                    </selectionStack>
+                    <errorLabels>
+                      <errorLabel errorText="" cellId="CP_property_name_1" cellNumber="0" isInList="false">
+                        <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/1275236291302750484" />
+                      </errorLabel>
+                      <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                        <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" />
+                      </errorLabel>
+                    </errorLabels>
+                    <folded />
+                    <enabledHints />
+                  </memento>
+                  <inspectorMemento currentlyEditedNode="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" viewPositionX="0" viewPositionY="0">
+                    <selectionStack />
+                    <errorLabels />
+                    <folded />
+                    <enabledHints />
+                  </inspectorMemento>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -499,6 +272,42 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ArduinoML.textGen">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ArduinoML">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ArduinoML.editor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ArduinoML">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="ArduinoML.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -541,7 +350,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="JUnit Tests.All Tests in Project">
+  <component name="RunManager" selected="JUnit Tests.Tests in 'sandbox'">
     <configuration default="false" name="All Tests in Project" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
       <MyState />
       <myJUnitSettings>
@@ -555,6 +364,36 @@
             <list />
           </option>
           <option name="myRunType" value="PROJECT" />
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests in 'sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <MyState />
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModel" />
+          <option name="myModule" value="ArduinoML.sandbox" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="MODULE" />
         </MyState>
       </myJUnitSettings>
       <myJavaRunParameters>
@@ -602,12 +441,35 @@
       </myJavaRunParameters>
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="true" type="MPS" factoryName="MPS Instance">
+      <MyState />
+      <myMpsSettings>
+        <MyState>
+          <option name="myVmOptions" />
+          <option name="myJrePath" />
+          <option name="mySystemPath" value="$USER_HOME$/.MPSDebug31/system" />
+          <option name="myConfigurationPath" value="$USER_HOME$/.MPSDebug31/config" />
+          <option name="myOpenCurrentProject" value="false" />
+          <option name="myProjectToOpen" />
+        </MyState>
+      </myMpsSettings>
+      <myPluginsSettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myPluginsSettings>
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit Tests.All Tests in Project" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit Tests.Tests in 'sandbox'" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit Tests.All Tests in Project" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit Tests.Tests in 'sandbox'" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit Tests.All Tests in Project" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="Application" default="true" selected="false">
@@ -651,7 +513,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -676,7 +538,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1322,35 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Component">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="151" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="TransactionalProperty_ueqr71_d0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713117" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265655784" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://ArduinoML/ArduinoML.structure/Machine_State">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -1370,7 +1203,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1409,74 +1242,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Signal">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302714858" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302714858" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/languages/ArduinoML/sandbox/source_gen/ArduinoML/sandbox/TurnsOnLight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6407035" vertical-offset="0" max-vertical-offset="459">
           <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML.sandbox/ArduinoML.sandbox/TurnsOnLight">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="167" />
-                <property name="caretXRelative" value="20" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_operator" cellNumber="0" isInList="false">
-                  <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/1275236291302773000" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels>
-              <errorLabel errorText="" cellId="CP_property_name_1" cellNumber="0" isInList="false">
-                <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/1275236291302750484" />
-              </errorLabel>
-              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
-                <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" />
-              </errorLabel>
-            </errorLabels>
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
         </state>
       </provider>
     </entry>
@@ -1499,7 +1268,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1509,76 +1278,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Component_OUT">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="95" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="87" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265657398" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429265657398" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://ArduinoML/ArduinoML.structure/Transition">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="167" />
-                <property name="caretXRelative" value="52" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/7931582971432548192" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorLabels />
-            <folded />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302714847" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://ArduinoML#1275236291302447778/ArduinoML.generator.template.main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="2" viewPositionY="450">
+          <memento viewPositionX="0" viewPositionY="210">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="233" />
+                <property name="caretX" value="31" />
                 <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/2574346429266260253" />
+                <cellInfo cellId="Constant_pxqe0v_e0" cellNumber="0" isInList="false">
+                  <node node_reference="r:87ba31e3-885c-48aa-a0f1-baf41b40e9dc(ArduinoML.generator.template.main@generator)/3050462586589004743" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1586,7 +1297,7 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
@@ -1598,15 +1309,15 @@
     <entry file="mps://node://ArduinoML/ArduinoML.structure/Action">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="43" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="31" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="219" />
+                <property name="caretXRelative" value="36" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyChildrenPlaceHolder" cellNumber="0" isInList="false">
-                  <node node_reference="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" />
+                <cellInfo cellId="Constant_l8ulis_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432878000" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1614,13 +1325,13 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
-          <node node_ref="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" />
+          <node node_ref="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432848961" />
         </state>
       </provider>
     </entry>
@@ -1631,11 +1342,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="311" />
-                <property name="caretXRelative" value="52" />
+                <property name="caretX" value="239" />
+                <property name="caretXRelative" value="12" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" />
+                <cellInfo cellId="Constant_trik0f_a1a" cellNumber="0" isInList="false">
+                  <node node_reference="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971432405775" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1643,13 +1354,200 @@
             <folded />
             <enabledHints />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302713201" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorLabels />
             <folded />
             <enabledHints />
           </inspectorMemento>
           <node node_ref="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971431976786" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://MPS.Core/jetbrains.mps.textGen@java_stub/SNodeTextGen">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-31" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_359zr8_a" cellNumber="0" isInList="false">
+                  <node node_reference="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.textGen(MPS.Core/jetbrains.mps.textGen@java_stub)/~SNodeTextGen.doGenerateText%28org.jetbrains.mps.openapi.model.SNode%29:void" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.textGen(MPS.Core/jetbrains.mps.textGen@java_stub)/~SNodeTextGen.doGenerateText%28org.jetbrains.mps.openapi.model.SNode%29:void" viewPositionX="0" viewPositionY="-8">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_359zr8_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.textGen(MPS.Core/jetbrains.mps.textGen@java_stub)/~SNodeTextGen.doGenerateText%28org.jetbrains.mps.openapi.model.SNode%29:void" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/Component_OUT">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="247" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/851727802994829248" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/851727802994829248" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/851727802994829248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/Component">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="109">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="127" />
+                <property name="caretXRelative" value="36" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_l8ulis_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432818745" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432818745" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/851727802994334266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/Signal">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="164" viewPositionY="9">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="555" />
+                <property name="caretXRelative" value="36" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432818615" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:e2880f41-9b01-48c3-986f-2034125be243(ArduinoML.textGen)/7931582971432405775" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432818006" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML/ArduinoML.structure/Transition">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="235" />
+                <property name="caretXRelative" value="36" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_l8ulis_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432818905" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432818905" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7931582971432756802" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://ArduinoML.sandbox/ArduinoML.sandbox/TurnsOnLight">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="396">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="79" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorLabels>
+              <errorLabel errorText="" cellId="CP_property_name_1" cellNumber="0" isInList="false">
+                <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/1275236291302750484" />
+              </errorLabel>
+              <errorLabel errorText="" cellId="property_name" cellNumber="0" isInList="false">
+                <node node_reference="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" />
+              </errorLabel>
+            </errorLabels>
+            <folded />
+            <enabledHints />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:022d951c-cb40-46f8-a28d-daedc51feb46(ArduinoML.sandbox)/2574346429266252528" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorLabels />
+            <folded />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>
