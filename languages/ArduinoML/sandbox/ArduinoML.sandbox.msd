@@ -11,6 +11,7 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>db75545d-4d64-42db-a770-364af8b0316e(ArduinoML)</usedLanguage>
+    <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
   </usedLanguages>
 </solution>
