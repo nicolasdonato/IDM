@@ -18,10 +18,12 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 0:
         return Collections.<ConceptEditor>singletonList(new Action_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new And_Editor());
+        return Collections.<ConceptEditor>singletonList(new AndComponent_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new Component_Editor());
+        return Collections.<ConceptEditor>singletonList(new AndTest_Editor());
       case 3:
+        return Collections.<ConceptEditor>singletonList(new Component_Editor());
+      case 4:
         return Collections.<ConceptEditor>singletonList(new Machine_State_Editor());
       default:
     }
@@ -34,5 +36,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.And", "ArduinoML.structure.Component", "ArduinoML.structure.Machine_State"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.AndComponent", "ArduinoML.structure.AndTest", "ArduinoML.structure.Component", "ArduinoML.structure.Machine_State"};
 }

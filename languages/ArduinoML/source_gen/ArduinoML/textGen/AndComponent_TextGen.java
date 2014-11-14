@@ -7,20 +7,19 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
-public class And_TextGen extends SNodeTextGen {
+public class AndComponent_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    this.appendNewLine();
     if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("digital")) {
-      this.append("readDigital");
+      this.append("writeDigital");
     } else if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("analogic")) {
-      this.append("readAnalogic");
+      this.append("writeAnalogic");
     }
     this.append("(");
-    this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(node, "component", false), "pin")));
-    this.append(") == ");
     this.append(SPropertyOperations.getString(node, "value"));
-    if (SLinkOperations.getTarget(node, "ands", true) != null) {
-      this.append(" && ");
-      appendNode(SLinkOperations.getTarget(node, "ands", true));
+    this.append(");");
+    if (SLinkOperations.getTarget(node, "and", true) != null) {
+      appendNode(SLinkOperations.getTarget(node, "and", true));
     }
   }
 }

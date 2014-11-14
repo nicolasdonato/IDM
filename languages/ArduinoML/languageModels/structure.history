@@ -96,5 +96,29 @@
     </dependencies>
     <rename id="e532.6743260208045452957" type="PROPERTY" from="alue" to="value" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="15" />
+    </dependencies>
+    <rename id="e532.6743260208045398863" type="CONCEPT" from="And" to="AndTest" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="16" />
+    </dependencies>
+    <rename id="e532.6743260208045728021" type="CHILD" from="ands" to="and" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="17" />
+    </dependencies>
+    <rename id="e532.5961443109978821675" type="CHILD" from="n" to="and" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="18" />
+    </dependencies>
+    <rename id="e532.5961443109978837025" type="REFERENCE" from="cmp" to="component" />
+  </StructureModification>
 </history>
 

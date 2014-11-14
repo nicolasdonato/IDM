@@ -4,12 +4,12 @@ package ArduinoML.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public class And_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
-  public And_BehaviorDescriptor() {
+public class AndTest_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+  public AndTest_BehaviorDescriptor() {
   }
 
   @Override
   public String getConceptFqName() {
-    return "ArduinoML.structure.And";
+    return "ArduinoML.structure.AndTest";
   }
 }

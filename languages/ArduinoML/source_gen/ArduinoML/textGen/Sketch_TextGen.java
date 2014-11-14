@@ -64,7 +64,7 @@ public class Sketch_TextGen extends SNodeTextGen {
       this.append("if (");
       appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true));
       this.append(") {");
-
+      appendNode(SLinkOperations.getTarget(state, "andComponents", true));
       this.appendNewLine();
       this.append("}");
     }

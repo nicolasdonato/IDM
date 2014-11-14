@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-7znzmarssup14nyfst4rllkcpn97x8p">
-  <common hash="-11mx3cmjf8yguz9nswzot6ss8xjpc95" />
-  <source id="1275236291302744135" name="TurnsOnLight" hash="-21p4b6cwsf157k2xvz1zlzyc9r81kt9">
-    <file name="TurnsOnLight.txt" />
-  </source>
-  <source id="2467399003607361162" name="Handling_Analogical_Bricks " hash="1wfvdb01yswreglmlg6nk28kptge0os">
-    <file name="Handling_Analogical_Bricks .txt" />
+<dependencies version="2" modelHash="5jv855yq5vj6tmn852pdbpa9exvee55">
+  <common hash="-3sdfm7t0c5583r57ls1uk89l83q3lzg" />
+  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="1axizx4ug5ywvhnfnor4hqnr4rkayby">
+    <file name="Sketch1-Very_Simple_Alarm.txt" />
   </source>
 </dependencies>
 
