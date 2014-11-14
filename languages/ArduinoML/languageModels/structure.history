@@ -90,5 +90,11 @@
     </dependencies>
     <rename id="e532.7931582971432536080" type="PROPERTY" from="alue" to="value" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="14" />
+    </dependencies>
+    <rename id="e532.6743260208045452957" type="PROPERTY" from="alue" to="value" />
+  </StructureModification>
 </history>
 
