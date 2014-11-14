@@ -16,7 +16,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 0:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Action").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value").references("nextState").children(new String[]{"andTests"}, new boolean[]{false}).create();
       case 1:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.And").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value").references("component").children(new String[]{"ands"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.And").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value", "operator").references("component").children(new String[]{"ands"}, new boolean[]{false}).create();
       case 2:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Component").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("pin", "signal").abstract_().create();
       case 3:
