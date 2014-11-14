@@ -14,21 +14,21 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
   public ConceptDescriptor getDescriptor(String conceptFqName) {
     switch (Arrays.binarySearch(stringSwitchCases_1htk8d_a0a0b, conceptFqName)) {
       case 0:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Action").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value").references("signal").create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Action").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value").references("nextState").children(new String[]{"andTests"}, new boolean[]{false}).create();
       case 1:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.And").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value").create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.And").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value").references("component").children(new String[]{"ands"}, new boolean[]{false}).create();
       case 2:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Component").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("pin").references("signal").abstract_().create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Component").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("pin", "signal").abstract_().create();
       case 3:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Component_IN").super_("ArduinoML.structure.Component").parents("ArduinoML.structure.Component").create();
       case 4:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Component_OUT").super_("ArduinoML.structure.Component").parents("ArduinoML.structure.Component").create();
       case 5:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Machine_State").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value").children(new String[]{"actions"}, new boolean[]{true}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Machine_State").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("value").children(new String[]{"andComponents", "action"}, new boolean[]{false, false}).create();
       case 6:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Named_Element").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("name").abstract_().create();
       case 7:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.Sketch").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.execution.util.structure.IMainClass").children(new String[]{"machineStates", "components", "transitions", "signaux"}, new boolean[]{true, true, true, true}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Sketch").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.execution.util.structure.IMainClass").children(new String[]{"machineStates", "components"}, new boolean[]{true, true}).create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }

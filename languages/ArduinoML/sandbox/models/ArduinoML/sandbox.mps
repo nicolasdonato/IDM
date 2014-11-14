@@ -3,5 +3,22 @@
   <persistence version="8" />
   <language namespace="db75545d-4d64-42db-a770-364af8b0316e(ArduinoML)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <import index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="15" implicit="yes" />
+  <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
+  <root type="e532.Sketch" typeId="e532.1275236291302713123" id="6743260208045728251" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Sketch1-Very_Simple_Alarm" />
+    <node role="components" roleId="e532.1275236291302734514" type="e532.Component_IN" typeId="e532.1275236291302713134" id="6743260208045733175" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="Button" />
+      <property name="pin" nameId="e532.1275236291302728373" value="12" />
+    </node>
+    <node role="components" roleId="e532.1275236291302734514" type="e532.Component_OUT" typeId="e532.1275236291302713193" id="6743260208045733180" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="LED" />
+      <property name="pin" nameId="e532.1275236291302728373" value="8" />
+    </node>
+    <node role="components" roleId="e532.1275236291302734514" type="e532.Component_OUT" typeId="e532.1275236291302713193" id="6743260208045733196" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="Buzzer" />
+      <property name="pin" nameId="e532.1275236291302728373" value="9" />
+    </node>
+  </root>
 </model>
 
