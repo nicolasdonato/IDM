@@ -155,5 +155,9 @@
       <property name="internalValue" nameId="tpce.1083923523171" value="&lt;" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5961443109978642146" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="LCD" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="1275236291302713193" resolveInfo="Component_OUT" />
+  </root>
 </model>
 

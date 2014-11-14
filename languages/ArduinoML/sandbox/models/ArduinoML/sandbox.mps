@@ -40,6 +40,11 @@
         <node role="andTests" roleId="e532.6743260208045728055" type="e532.And" typeId="e532.6743260208045398863" id="6743260208045875521" nodeInfo="ng">
           <property name="value" nameId="e532.6743260208045452957" value="HIGH" />
           <link role="component" roleId="e532.6743260208045728023" targetNodeId="6743260208045733175" resolveInfo="Button" />
+          <node role="ands" roleId="e532.6743260208045728021" type="e532.And" typeId="e532.6743260208045398863" id="5961443109978689202" nodeInfo="ng">
+            <property name="operator" nameId="e532.6743260208045841836" value="&lt;=" />
+            <property name="value" nameId="e532.6743260208045452957" value="TEST" />
+            <link role="component" roleId="e532.6743260208045728023" targetNodeId="6743260208045733175" resolveInfo="Button" />
+          </node>
         </node>
       </node>
     </node>

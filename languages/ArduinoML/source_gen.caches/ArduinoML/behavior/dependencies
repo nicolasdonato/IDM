@@ -17,6 +17,7 @@
     <classNode dependClassName="ArduinoML.behavior.And_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Component_IN_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Component_OUT_BehaviorDescriptor" />
+    <classNode dependClassName="ArduinoML.behavior.LCD_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Machine_State_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Sketch_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
@@ -39,6 +40,12 @@
   </dependency>
   <dependency className="ArduinoML.behavior.Component_OUT_BehaviorDescriptor" file="Component_OUT_BehaviorDescriptor.java">
     <classNode dependClassName="ArduinoML.behavior.Component_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="ArduinoML.behavior.LCD_BehaviorDescriptor" file="LCD_BehaviorDescriptor.java">
+    <classNode dependClassName="ArduinoML.behavior.Component_OUT_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />

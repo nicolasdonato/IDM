@@ -16,6 +16,11 @@ public class And_TextGen extends SNodeTextGen {
     }
     this.append("(");
     this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(node, "component", false), "pin")));
-    this.append(")");
+    this.append(") == ");
+    this.append(SPropertyOperations.getString(node, "value"));
+    if (SLinkOperations.getTarget(node, "ands", true) != null) {
+      this.append(" && ");
+      appendNode(SLinkOperations.getTarget(node, "ands", true));
+    }
   }
 }

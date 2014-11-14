@@ -6,11 +6,21 @@ import jetbrains.mps.textGen.SNodeTextGen;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class Sketch_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
+    for (SNode component : ListSequence.fromList(SLinkOperations.getTargets(node, "components", true))) {
+      {
+        SNode lcd = component;
+        if (SNodeOperations.isInstanceOf(lcd, "ArduinoML.structure.LCD")) {
+          this.appendNewLine();
+          this.append("Write the declaration of the LCD");
+          break;
+        }
+      }
+    }
     this.appendNewLine();
     this.append("void setup() {");
     this.increaseDepth();
@@ -44,7 +54,7 @@ public class Sketch_TextGen extends SNodeTextGen {
     for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
       this.appendNewLine();
       this.append("if (");
-
+      appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true));
       this.append(") {");
 
       this.appendNewLine();
