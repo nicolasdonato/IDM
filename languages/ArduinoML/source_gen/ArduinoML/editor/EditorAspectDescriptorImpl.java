@@ -16,7 +16,11 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
+        return Collections.<ConceptEditor>singletonList(new And_Editor());
+      case 1:
         return Collections.<ConceptEditor>singletonList(new Component_Editor());
+      case 2:
+        return Collections.<ConceptEditor>singletonList(new Machine_State_Editor());
       default:
     }
     return Collections.<ConceptEditor>emptyList();
@@ -28,5 +32,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"ArduinoML.structure.Component"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"ArduinoML.structure.And", "ArduinoML.structure.Component", "ArduinoML.structure.Machine_State"};
 }

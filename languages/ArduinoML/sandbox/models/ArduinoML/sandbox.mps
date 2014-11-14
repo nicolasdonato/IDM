@@ -7,6 +7,28 @@
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="e532.Sketch" typeId="e532.1275236291302713123" id="6743260208045728251" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Sketch1-Very_Simple_Alarm" />
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="6743260208045785963" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="ON" />
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And" typeId="e532.6743260208045398863" id="6743260208045785965" nodeInfo="ng">
+        <property name="value" nameId="e532.6743260208045452957" value="HIGH" />
+        <link role="component" roleId="e532.6743260208045728023" targetNodeId="6743260208045733180" resolveInfo="LED" />
+        <node role="ands" roleId="e532.6743260208045728021" type="e532.And" typeId="e532.6743260208045398863" id="6743260208045788191" nodeInfo="ng">
+          <property name="value" nameId="e532.6743260208045452957" value="HIGH" />
+          <link role="component" roleId="e532.6743260208045728023" targetNodeId="6743260208045733196" resolveInfo="Buzzer" />
+        </node>
+      </node>
+    </node>
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="6743260208045788200" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="OFF" />
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And" typeId="e532.6743260208045398863" id="6743260208045788205" nodeInfo="ng">
+        <property name="value" nameId="e532.6743260208045452957" value="LOW" />
+        <link role="component" roleId="e532.6743260208045728023" targetNodeId="6743260208045733180" resolveInfo="LED" />
+        <node role="ands" roleId="e532.6743260208045728021" type="e532.And" typeId="e532.6743260208045398863" id="6743260208045788207" nodeInfo="ng">
+          <property name="value" nameId="e532.6743260208045452957" value="LOW" />
+          <link role="component" roleId="e532.6743260208045728023" targetNodeId="6743260208045733196" resolveInfo="Buzzer" />
+        </node>
+      </node>
+    </node>
     <node role="components" roleId="e532.1275236291302734514" type="e532.Component_IN" typeId="e532.1275236291302713134" id="6743260208045733175" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="Button" />
       <property name="pin" nameId="e532.1275236291302728373" value="12" />
