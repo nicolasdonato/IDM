@@ -7,12 +7,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public enum Operator {
-  eq("eq", "=="),
   ne("ne", "<>"),
   le("le", "<="),
   ge("ge", ">="),
   gt("gt", ">"),
-  lt("lt", "<");
+  lt("lt", "<"),
+  eq("eq", "==");
 
   private String myName;
 
@@ -26,12 +26,12 @@ public enum Operator {
 
   public static List<Operator> getConstants() {
     List<Operator> list = ListSequence.fromList(new LinkedList<Operator>());
-    ListSequence.fromList(list).addElement(Operator.eq);
     ListSequence.fromList(list).addElement(Operator.ne);
     ListSequence.fromList(list).addElement(Operator.le);
     ListSequence.fromList(list).addElement(Operator.ge);
     ListSequence.fromList(list).addElement(Operator.gt);
     ListSequence.fromList(list).addElement(Operator.lt);
+    ListSequence.fromList(list).addElement(Operator.eq);
     return list;
   }
 
@@ -42,9 +42,6 @@ public enum Operator {
   public static Operator parseValue(String value) {
     if (value == null) {
       return Operator.getDefault();
-    }
-    if (value.equals(Operator.eq.getValueAsString())) {
-      return Operator.eq;
     }
     if (value.equals(Operator.ne.getValueAsString())) {
       return Operator.ne;
@@ -60,6 +57,9 @@ public enum Operator {
     }
     if (value.equals(Operator.lt.getValueAsString())) {
       return Operator.lt;
+    }
+    if (value.equals(Operator.eq.getValueAsString())) {
+      return Operator.eq;
     }
     return Operator.getDefault();
   }

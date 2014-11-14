@@ -16,7 +16,7 @@ public class Sketch_TextGen extends SNodeTextGen {
         SNode lcd = component;
         if (SNodeOperations.isInstanceOf(lcd, "ArduinoML.structure.LCD")) {
           this.appendNewLine();
-          this.append("Write the declaration of the LCD");
+          this.append("LiquidCrystal lcd(12, 11, 5, 4, 3, 2);");
           break;
         }
       }
@@ -26,6 +26,14 @@ public class Sketch_TextGen extends SNodeTextGen {
     this.increaseDepth();
     for (SNode component : ListSequence.fromList(SLinkOperations.getTargets(node, "components", true))) {
       this.appendNewLine();
+      {
+        SNode lcd = component;
+        if (SNodeOperations.isInstanceOf(lcd, "ArduinoML.structure.LCD")) {
+          this.append("    ");
+          this.append("lcd.begin(16, 2);");
+          continue;
+        }
+      }
       this.append("    ");
       this.append("pinMode(");
       this.append(String.valueOf(SPropertyOperations.getInteger(component, "pin")));
