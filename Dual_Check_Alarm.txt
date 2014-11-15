@@ -1,0 +1,12 @@
+void setup() {
+  pinMode(8, INPUT);
+  pinMode(10, INPUT);
+  pinMode(12, OUTPUT);
+}
+void loop() {
+  if (digitalRead(8) == HIGH && digitalRead(10) == HIGH ) {
+    digitalWrite(12, HIGH);    
+  } else {
+    digitalWrite(12, LOW);
+  }
+}

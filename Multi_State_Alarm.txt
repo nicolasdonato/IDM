@@ -1,0 +1,16 @@
+int prev = LOW;
+void setup() {
+  pinMode(8, INPUT);
+  pinMode(12, INPUT);  
+  pinMode(11, INPUT);  
+}
+void loop() {
+  if (digitalRead(8) == HIGH && prev == LOW) {
+    digitalWrite(12, HIGH);
+    digitalWrite(11, LOW);    
+  } else if (prev == HIGH){
+    digitalWrite(12, LOW);
+    digitalWrite(11, HIGH);  
+  }
+  prev = digitalRead(8);  
+}
