@@ -4,13 +4,13 @@ void setup() {
     pinMode(8, OUTPUT);
     pinMode(9, OUTPUT);
 }
+
 void loop() {
-if (readAnalogic(12) == LOW) {
-writeAnalogic(HIGH);
-writeAnalogic(HIGH);???
-}
-if (readAnalogic(12) == HIGH) {
-writeAnalogic(LOW);
-writeAnalogic(LOW);???
-}
+    if (!(readAnalogic(12) == LOW)) {
+        writeAnalogic(HIGH);
+        writeAnalogic(HIGH);
+    } else if (!(readAnalogic(12) == HIGH)) {
+        writeAnalogic(LOW);
+        writeAnalogic(LOW);
+    }
 }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="5jv855yq5vj6tmn852pdbpa9exvee55">
+<dependencies version="2" modelHash="-3do64zkn9x5d76rm2vddfrg5moqlrek">
   <common hash="-3sdfm7t0c5583r57ls1uk89l83q3lzg" />
-  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="1axizx4ug5ywvhnfnor4hqnr4rkayby">
+  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="98ogxjiohvsjbkj3166brdrw8qthqaw">
     <file name="Sketch1-Very_Simple_Alarm.txt" />
+  </source>
+  <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="aj1oshr8605lubxhizyf6seuilpi7i4">
+    <file name="Sketch_Ext1-Handling_Analogical_Bricks.txt" />
   </source>
 </dependencies>
 

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
   <dependency className="ArduinoML.sandbox.Sketch1-Very_Simple_Alarm" file="Sketch1-Very_Simple_Alarm.txt" />
+  <dependency className="ArduinoML.sandbox.Sketch_Ext1-Handling_Analogical_Bricks" file="Sketch_Ext1-Handling_Analogical_Bricks.txt" />
 </dependenciesRoot>
 

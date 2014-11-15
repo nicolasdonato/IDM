@@ -11,8 +11,10 @@ public class AndComponent_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     this.appendNewLine();
     if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("digital")) {
+      this.append("        ");
       this.append("writeDigital");
     } else if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("analogic")) {
+      this.append("        ");
       this.append("writeAnalogic");
     }
     this.append("(");

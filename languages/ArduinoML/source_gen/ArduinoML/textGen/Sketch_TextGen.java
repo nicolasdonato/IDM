@@ -55,20 +55,32 @@ public class Sketch_TextGen extends SNodeTextGen {
     this.decreaseDepth();
     this.appendNewLine();
     this.append("}");
-
+    this.appendNewLine();
     this.appendNewLine();
     this.append("void loop() {");
-    this.increaseDepth();
-    for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
-      this.appendNewLine();
-      this.append("if (");
-      appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true));
-      this.append(") {");
-      appendNode(SLinkOperations.getTarget(state, "andComponents", true));
-      this.appendNewLine();
-      this.append("}");
+    {
+      this.increaseDepth();
+      boolean isFirst = true;
+      for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
+        if (SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true) != null) {
+          if (!(isFirst)) {
+            this.append(" else ");
+          } else {
+            this.appendNewLine();
+            this.append("    ");
+            isFirst = false;
+          }
+          this.append("if (");
+          appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true));
+          this.append(") {");
+          appendNode(SLinkOperations.getTarget(state, "andComponents", true));
+          this.appendNewLine();
+          this.append("    ");
+          this.append("}");
+        }
+      }
+      this.decreaseDepth();
     }
-    this.decreaseDepth();
     this.appendNewLine();
     this.append("}");
   }

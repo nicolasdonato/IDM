@@ -1,0 +1,13 @@
+
+void setup() {
+    pinMode(12, INPUT);
+    pinMode(11, OUTPUT);
+}
+
+void loop() {
+    if (!(readDigital(12) < 52)) {
+        writeAnalogic(HIGH);
+    } else if (!(readDigital(12) >= 52)) {
+        writeAnalogic(LOW);
+    }
+}
