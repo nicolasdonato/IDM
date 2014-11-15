@@ -7,12 +7,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public enum Operator {
-  ne("ne", "<>"),
-  le("le", "<="),
-  ge("ge", ">="),
-  gt("gt", ">"),
-  lt("lt", "<"),
-  eq("eq", "==");
+  notEquals("notEquals", "<>"),
+  lesserOrEquals("lesserOrEquals", "<="),
+  greaterOrEquals("greaterOrEquals", ">="),
+  greaterThan("greaterThan", ">"),
+  lesserThan("lesserThan", "<"),
+  equals("equals", "==");
 
   private String myName;
 
@@ -26,40 +26,40 @@ public enum Operator {
 
   public static List<Operator> getConstants() {
     List<Operator> list = ListSequence.fromList(new LinkedList<Operator>());
-    ListSequence.fromList(list).addElement(Operator.ne);
-    ListSequence.fromList(list).addElement(Operator.le);
-    ListSequence.fromList(list).addElement(Operator.ge);
-    ListSequence.fromList(list).addElement(Operator.gt);
-    ListSequence.fromList(list).addElement(Operator.lt);
-    ListSequence.fromList(list).addElement(Operator.eq);
+    ListSequence.fromList(list).addElement(Operator.notEquals);
+    ListSequence.fromList(list).addElement(Operator.lesserOrEquals);
+    ListSequence.fromList(list).addElement(Operator.greaterOrEquals);
+    ListSequence.fromList(list).addElement(Operator.greaterThan);
+    ListSequence.fromList(list).addElement(Operator.lesserThan);
+    ListSequence.fromList(list).addElement(Operator.equals);
     return list;
   }
 
   public static Operator getDefault() {
-    return Operator.eq;
+    return Operator.equals;
   }
 
   public static Operator parseValue(String value) {
     if (value == null) {
       return Operator.getDefault();
     }
-    if (value.equals(Operator.ne.getValueAsString())) {
-      return Operator.ne;
+    if (value.equals(Operator.notEquals.getValueAsString())) {
+      return Operator.notEquals;
     }
-    if (value.equals(Operator.le.getValueAsString())) {
-      return Operator.le;
+    if (value.equals(Operator.lesserOrEquals.getValueAsString())) {
+      return Operator.lesserOrEquals;
     }
-    if (value.equals(Operator.ge.getValueAsString())) {
-      return Operator.ge;
+    if (value.equals(Operator.greaterOrEquals.getValueAsString())) {
+      return Operator.greaterOrEquals;
     }
-    if (value.equals(Operator.gt.getValueAsString())) {
-      return Operator.gt;
+    if (value.equals(Operator.greaterThan.getValueAsString())) {
+      return Operator.greaterThan;
     }
-    if (value.equals(Operator.lt.getValueAsString())) {
-      return Operator.lt;
+    if (value.equals(Operator.lesserThan.getValueAsString())) {
+      return Operator.lesserThan;
     }
-    if (value.equals(Operator.eq.getValueAsString())) {
-      return Operator.eq;
+    if (value.equals(Operator.equals.getValueAsString())) {
+      return Operator.equals;
     }
     return Operator.getDefault();
   }

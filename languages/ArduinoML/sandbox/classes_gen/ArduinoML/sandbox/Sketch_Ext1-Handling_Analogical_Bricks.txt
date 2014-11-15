@@ -5,9 +5,9 @@ void setup() {
 }
 
 void loop() {
-    if (!(readDigital(12) < 52)) {
-        writeAnalogic(HIGH);
-    } else if (!(readDigital(12) >= 52)) {
+    if (readDigital(12) < 52) {
         writeAnalogic(LOW);
+    } else if (readDigital(12) >= 52) {
+        writeAnalogic(HIGH);
     }
 }

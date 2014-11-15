@@ -133,27 +133,27 @@
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     <link role="defaultMember" roleId="tpce.1083241965437" targetNodeId="5961443109978730636" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6743260208045728148" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="ne" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="notEquals" />
       <property name="internalValue" nameId="tpce.1083923523171" value="&lt;&gt;" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6743260208045728151" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="le" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="lesserOrEquals" />
       <property name="internalValue" nameId="tpce.1083923523171" value="&lt;=" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6743260208045728155" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="ge" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="greaterOrEquals" />
       <property name="internalValue" nameId="tpce.1083923523171" value="&gt;=" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6743260208045728160" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="gt" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="greaterThan" />
       <property name="internalValue" nameId="tpce.1083923523171" value="&gt;" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6743260208045728166" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="lt" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="lesserThan" />
       <property name="internalValue" nameId="tpce.1083923523171" value="&lt;" />
     </node>
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="5961443109978730636" nodeInfo="ig">
-      <property name="externalValue" nameId="tpce.1083923523172" value="eq" />
+      <property name="externalValue" nameId="tpce.1083923523172" value="equals" />
       <property name="internalValue" nameId="tpce.1083923523171" value="==" />
     </node>
   </root>
