@@ -293,7 +293,56 @@
                           </node>
                         </node>
                       </node>
-                      <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="6168938315457257500" nodeInfo="ng">
+                    </node>
+                    <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="4954859863374129687" nodeInfo="nn">
+                      <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="4954859863374129690" nodeInfo="sn">
+                        <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="4954859863374131804" nodeInfo="nn">
+                          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="4954859863374131824" nodeInfo="ng">
+                            <property name="value" nameId="2omo.1237305576108" value=" &amp;&amp; prev" />
+                          </node>
+                          <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="4954859863374131966" nodeInfo="ng">
+                            <node role="value" roleId="2omo.1237305790512" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374227188" nodeInfo="nn">
+                              <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374225014" nodeInfo="nn">
+                                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374132195" nodeInfo="nn">
+                                  <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="4954859863374132045" nodeInfo="nn">
+                                    <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5961443109978510681" resolveInfo="state" />
+                                  </node>
+                                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4954859863374223918" nodeInfo="nn">
+                                    <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.1275236291302763265" />
+                                  </node>
+                                </node>
+                                <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4954859863374226324" nodeInfo="nn">
+                                  <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.6743260208045728053" />
+                                </node>
+                              </node>
+                              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4954859863374228506" nodeInfo="nn">
+                                <link role="property" roleId="tp25.1138056395725" targetNodeId="e532.1275236291302507178" resolveInfo="name" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374178381" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374176457" nodeInfo="nn">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374129972" nodeInfo="nn">
+                            <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="4954859863374129810" nodeInfo="nn">
+                              <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5961443109978510681" resolveInfo="state" />
+                            </node>
+                            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4954859863374175495" nodeInfo="nn">
+                              <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.1275236291302763265" />
+                            </node>
+                          </node>
+                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4954859863374177694" nodeInfo="nn">
+                            <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.6743260208045728053" />
+                          </node>
+                        </node>
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4954859863374179900" nodeInfo="nn">
+                          <link role="property" roleId="tp25.1138056395725" targetNodeId="e532.2574346429266041758" resolveInfo="usePreviousValue" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="4954859863374128279" nodeInfo="nn">
+                      <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="4954859863374128338" nodeInfo="ng">
                         <property name="value" nameId="2omo.1237305576108" value=") {" />
                       </node>
                     </node>
@@ -366,6 +415,9 @@
               <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="476062208240065390" nodeInfo="sn">
                 <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="476062208240066763" nodeInfo="nn">
                   <node role="part" roleId="2omo.1237306115446" type="2omo.NewLineAppendPart" typeId="2omo.1237305208784" id="476062208240066783" nodeInfo="ng" />
+                  <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="4954859863374127694" nodeInfo="ng">
+                    <property name="value" nameId="2omo.1237305576108" value="    " />
+                  </node>
                   <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="476062208240066851" nodeInfo="ng">
                     <property name="value" nameId="2omo.1237305576108" value="prev" />
                   </node>
@@ -387,7 +439,7 @@
                   <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="476062208240072716" nodeInfo="sn">
                     <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="476062208240085504" nodeInfo="nn">
                       <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="476062208240085524" nodeInfo="ng">
-                        <property name="value" nameId="2omo.1237305576108" value="analogic" />
+                        <property name="value" nameId="2omo.1237305576108" value="analogicRead" />
                       </node>
                     </node>
                   </node>
@@ -447,7 +499,7 @@
                     <node role="statementList" roleId="tpee.1206060644605" type="tpee.StatementList" typeId="tpee.1068580123136" id="476062208240085655" nodeInfo="sn">
                       <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="476062208240097140" nodeInfo="nn">
                         <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="476062208240097152" nodeInfo="ng">
-                          <property name="value" nameId="2omo.1237305576108" value="digital" />
+                          <property name="value" nameId="2omo.1237305576108" value="digitalRead" />
                         </node>
                       </node>
                     </node>
@@ -461,21 +513,26 @@
                     <node role="value" roleId="2omo.1237305790512" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="476062208240111996" nodeInfo="nn">
                       <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~String" resolveInfo="String" />
                       <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dvalueOf(int)%cjava%dlang%dString" resolveInfo="valueOf" />
-                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="476062208240119768" nodeInfo="nn">
-                        <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="476062208240117461" nodeInfo="nn">
-                          <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="476062208240113703" nodeInfo="nn">
-                            <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="476062208240112716" nodeInfo="nn">
-                              <link role="variable" roleId="tp2q.1153944258490" targetNodeId="476062208240062215" resolveInfo="state" />
+                      <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374083882" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374081052" nodeInfo="nn">
+                          <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863373986590" nodeInfo="nn">
+                            <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="476062208240113703" nodeInfo="nn">
+                              <node role="operand" roleId="tpee.1197027771414" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="476062208240112716" nodeInfo="nn">
+                                <link role="variable" roleId="tp2q.1153944258490" targetNodeId="476062208240062215" resolveInfo="state" />
+                              </node>
+                              <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4954859863373984728" nodeInfo="nn">
+                                <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.1275236291302763265" />
+                              </node>
                             </node>
-                            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="476062208240115814" nodeInfo="nn">
-                              <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.6743260208045728114" />
+                            <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4954859863374080184" nodeInfo="nn">
+                              <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.6743260208045728055" />
                             </node>
                           </node>
-                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="476062208240118368" nodeInfo="nn">
-                            <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.5961443109978837025" />
+                          <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="4954859863374082840" nodeInfo="nn">
+                            <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.7566270540795122589" />
                           </node>
                         </node>
-                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="476062208240120797" nodeInfo="nn">
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4954859863374085754" nodeInfo="nn">
                           <link role="property" roleId="tp25.1138056395725" targetNodeId="e532.1275236291302728373" resolveInfo="pin" />
                         </node>
                       </node>

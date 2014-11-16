@@ -80,6 +80,10 @@ public class Sketch_TextGen extends SNodeTextGen {
           }
           this.append("if (");
           appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true));
+          if (SPropertyOperations.getBoolean(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "usePreviousValue")) {
+            this.append(" && prev");
+            this.append(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "name"));
+          }
           this.append(") {");
           appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "andComponents", true));
           this.appendNewLine();
@@ -93,16 +97,17 @@ public class Sketch_TextGen extends SNodeTextGen {
     for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
       if (SPropertyOperations.getBoolean(state, "usePreviousValue")) {
         this.appendNewLine();
+        this.append("    ");
         this.append("prev");
         this.append(SPropertyOperations.getString(state, "name"));
         this.append(" = ");
         if (SPropertyOperations.getString_def(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "andComponents", true), "component", false), "signal", "analogic").equalsIgnoreCase("analogic")) {
-          this.append("analogic");
+          this.append("analogicRead");
         } else if (SPropertyOperations.getString_def(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "andComponents", true), "component", false), "signal", "analogic").equalsIgnoreCase("digital")) {
-          this.append("digital");
+          this.append("digitalRead");
         }
         this.append("(");
-        this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "andComponents", true), "component", false), "pin")));
+        this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true), "component", false), "pin")));
         this.append(")");
         this.append(";");
       }
