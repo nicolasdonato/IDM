@@ -132,5 +132,23 @@
     </dependencies>
     <rename id="e532.7566270540795098879" type="CHILD" from="e" to="test" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="21" />
+    </dependencies>
+    <rename id="e532.2574346429266041758" type="PROPERTY" from="value" to="usePreviousValue" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="22" />
+    </dependencies>
+    <rename id="e532.4954859863373262018" type="PROPERTY" from="n" to="sentence" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="23" />
+    </dependencies>
+    <rename id="e532.4954859863373206605" type="CONCEPT" from="AndComponentLCD" to="AndComponentLCDTemperature" />
+  </StructureModification>
 </history>
 

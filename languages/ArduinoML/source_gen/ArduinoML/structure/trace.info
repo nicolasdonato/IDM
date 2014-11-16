@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="47" endPosition="0" unitName="ArduinoML.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="49" endPosition="0" unitName="ArduinoML.structure.StructureAspectDescriptor" />
   <root nodeRef="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)/1275236291302714870">
     <nodeInfo nodeId="1275236291302714870" fileName="SignalType.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="1275236291302714870" fileName="SignalType.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

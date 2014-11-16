@@ -21,6 +21,14 @@ public class Sketch_TextGen extends SNodeTextGen {
         }
       }
     }
+    for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
+      if (SPropertyOperations.getBoolean(state, "usePreviousValue")) {
+        this.appendNewLine();
+        this.append("int prev");
+        this.append(SPropertyOperations.getString(state, "name"));
+        this.append(" = LOW;");
+      }
+    }
     this.appendNewLine();
     this.append("void setup() {");
     this.increaseDepth();
@@ -79,7 +87,25 @@ public class Sketch_TextGen extends SNodeTextGen {
           this.append("}");
         }
       }
+
       this.decreaseDepth();
+    }
+    for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
+      if (SPropertyOperations.getBoolean(state, "usePreviousValue")) {
+        this.appendNewLine();
+        this.append("prev");
+        this.append(SPropertyOperations.getString(state, "name"));
+        this.append(" = ");
+        if (SPropertyOperations.getString_def(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "andComponents", true), "component", false), "signal", "analogic").equalsIgnoreCase("analogic")) {
+          this.append("analogic");
+        } else if (SPropertyOperations.getString_def(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "andComponents", true), "component", false), "signal", "analogic").equalsIgnoreCase("digital")) {
+          this.append("digital");
+        }
+        this.append("(");
+        this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "andComponents", true), "component", false), "pin")));
+        this.append(")");
+        this.append(";");
+      }
     }
     this.appendNewLine();
     this.append("}");

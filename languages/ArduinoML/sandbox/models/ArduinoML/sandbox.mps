@@ -3,7 +3,7 @@
   <persistence version="8" />
   <language namespace="db75545d-4d64-42db-a770-364af8b0316e(ArduinoML)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
-  <import index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="21" implicit="yes" />
+  <import index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="24" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <root type="e532.Sketch" typeId="e532.1275236291302713123" id="6743260208045728251" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Sketch1-Very_Simple_Alarm" />
@@ -100,10 +100,47 @@
     </node>
   </root>
   <root type="e532.Sketch" typeId="e532.1275236291302713123" id="1289569606770260318" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Sketch_Ext2-" />
+    <property name="name" nameId="tpck.1169194664001" value="Sketch_Ext2-Supporting_the_LCD_screen" />
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="4954859863373669868" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="FireInside" />
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponentLCDTemperature" typeId="e532.4954859863373206605" id="4954859863373669872" nodeInfo="ng">
+        <property name="sentence" nameId="e532.4954859863373262018" value="Fire is inside" />
+        <link role="component" roleId="e532.5961443109978837025" targetNodeId="1289569606770296209" resolveInfo="LCD" />
+        <link role="componentSensorTemperature" roleId="e532.4954859863373569708" targetNodeId="4954859863373669864" resolveInfo="TemperatureSensor" />
+      </node>
+      <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="4954859863373669929" nodeInfo="ng">
+        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="4954859863373669931" resolveInfo="FireNotInside" />
+        <node role="andTests" roleId="e532.6743260208045728055" type="e532.AndTest" typeId="e532.6743260208045398863" id="4954859863373669938" nodeInfo="ng">
+          <property name="operator" nameId="e532.7566270540795098876" value="&lt;" />
+          <property name="value" nameId="e532.7566270540795075230" value="52" />
+          <link role="component" roleId="e532.7566270540795122589" targetNodeId="4954859863373669864" resolveInfo="TemperatureSensor" />
+        </node>
+      </node>
+    </node>
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="4954859863373669931" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="FireNotInside" />
+      <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="4954859863373669936" nodeInfo="ng">
+        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="4954859863373669868" resolveInfo="FireInside" />
+        <node role="andTests" roleId="e532.6743260208045728055" type="e532.AndTest" typeId="e532.6743260208045398863" id="4954859863373669940" nodeInfo="ng">
+          <property name="value" nameId="e532.7566270540795075230" value="52" />
+          <property name="operator" nameId="e532.7566270540795098876" value="&gt;=" />
+          <link role="component" roleId="e532.7566270540795122589" targetNodeId="4954859863373669864" resolveInfo="TemperatureSensor" />
+        </node>
+      </node>
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponentLCDTemperature" typeId="e532.4954859863373206605" id="4954859863373798212" nodeInfo="ng">
+        <property name="sentence" nameId="e532.4954859863373262018" value="No fire" />
+        <link role="component" roleId="e532.5961443109978837025" targetNodeId="1289569606770296209" resolveInfo="LCD" />
+        <link role="componentSensorTemperature" roleId="e532.4954859863373569708" targetNodeId="4954859863373669864" resolveInfo="TemperatureSensor" />
+      </node>
+    </node>
     <node role="components" roleId="e532.1275236291302734514" type="e532.LCD" typeId="e532.5961443109978642146" id="1289569606770296209" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="LCD" />
       <property name="pin" nameId="e532.1275236291302728373" value="12" />
+      <property name="signal" nameId="e532.6743260208045728173" value="digital" />
+    </node>
+    <node role="components" roleId="e532.1275236291302734514" type="e532.Component_IN" typeId="e532.1275236291302713134" id="4954859863373669864" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="TemperatureSensor" />
+      <property name="pin" nameId="e532.1275236291302728373" value="11" />
       <property name="signal" nameId="e532.6743260208045728173" value="digital" />
     </node>
   </root>
@@ -156,6 +193,46 @@
     <node role="components" roleId="e532.1275236291302734514" type="e532.Component_OUT" typeId="e532.1275236291302713193" id="7566270540795072665" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="Buzzer" />
       <property name="pin" nameId="e532.1275236291302728373" value="12" />
+    </node>
+  </root>
+  <root type="e532.Sketch" typeId="e532.1275236291302713123" id="476062208239968535" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="Sketch3-State_Based_Alarm" />
+    <node role="components" roleId="e532.1275236291302734514" type="e532.Component_IN" typeId="e532.1275236291302713134" id="476062208239968776" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="Button" />
+      <property name="pin" nameId="e532.1275236291302728373" value="8" />
+    </node>
+    <node role="components" roleId="e532.1275236291302734514" type="e532.Component_OUT" typeId="e532.1275236291302713193" id="476062208239968789" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="Buzzer" />
+      <property name="pin" nameId="e532.1275236291302728373" value="12" />
+    </node>
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="476062208239968779" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="On" />
+      <property name="usePreviousValue" nameId="e532.2574346429266041758" value="true" />
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponent" typeId="e532.5961443109978821638" id="476062208239968784" nodeInfo="ng">
+        <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
+        <link role="component" roleId="e532.5961443109978837025" targetNodeId="476062208239968789" resolveInfo="Buzzer" />
+      </node>
+      <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="476062208239971017" nodeInfo="ng">
+        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="476062208239968781" resolveInfo="Off" />
+        <node role="andTests" roleId="e532.6743260208045728055" type="e532.AndTest" typeId="e532.6743260208045398863" id="476062208239971234" nodeInfo="ng">
+          <property name="value" nameId="e532.7566270540795075230" value="LOW" />
+          <link role="component" roleId="e532.7566270540795122589" targetNodeId="476062208239968776" resolveInfo="Button" />
+        </node>
+      </node>
+    </node>
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="476062208239968781" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="Off" />
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponent" typeId="e532.5961443109978821638" id="476062208239971019" nodeInfo="ng">
+        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
+        <link role="component" roleId="e532.5961443109978837025" targetNodeId="476062208239968789" resolveInfo="Buzzer" />
+      </node>
+      <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="476062208239971021" nodeInfo="ng">
+        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="476062208239968779" resolveInfo="On" />
+        <node role="andTests" roleId="e532.6743260208045728055" type="e532.AndTest" typeId="e532.6743260208045398863" id="476062208239971236" nodeInfo="ng">
+          <property name="value" nameId="e532.7566270540795075230" value="HIGH" />
+          <link role="component" roleId="e532.7566270540795122589" targetNodeId="476062208239968776" resolveInfo="Button" />
+        </node>
+      </node>
     </node>
   </root>
 </model>
