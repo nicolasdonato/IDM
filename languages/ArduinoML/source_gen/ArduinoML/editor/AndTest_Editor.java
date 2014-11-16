@@ -146,6 +146,7 @@ public class AndTest_Editor extends DefaultNodeEditor {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     editorCell.getStyle().putAll(style);
     return editorCell;
   }

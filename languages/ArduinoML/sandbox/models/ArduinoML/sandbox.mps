@@ -10,10 +10,10 @@
     <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="5961443109978981613" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="ON" />
       <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponent" typeId="e532.5961443109978821638" id="5961443109978981618" nodeInfo="ng">
-        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
+        <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
         <link role="component" roleId="e532.5961443109978837025" targetNodeId="6743260208045733180" resolveInfo="LED" />
         <node role="and" roleId="e532.5961443109978821675" type="e532.AndComponent" typeId="e532.5961443109978821638" id="5961443109978981620" nodeInfo="ng">
-          <property name="value" nameId="e532.5961443109978887479" value="LOW" />
+          <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
           <link role="component" roleId="e532.5961443109978837025" targetNodeId="6743260208045733196" resolveInfo="Buzzer" />
         </node>
       </node>
@@ -29,10 +29,10 @@
     <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="5961443109978981615" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="OFF" />
       <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponent" typeId="e532.5961443109978821638" id="5961443109978981626" nodeInfo="ng">
-        <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
+        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
         <link role="component" roleId="e532.5961443109978837025" targetNodeId="6743260208045733180" resolveInfo="LED" />
         <node role="and" roleId="e532.5961443109978821675" type="e532.AndComponent" typeId="e532.5961443109978821638" id="5961443109978981628" nodeInfo="ng">
-          <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
+          <property name="value" nameId="e532.5961443109978887479" value="LOW" />
           <link role="component" roleId="e532.5961443109978837025" targetNodeId="6743260208045733196" resolveInfo="Buzzer" />
         </node>
       </node>
@@ -62,7 +62,7 @@
     <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="5961443109979005259" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="FireInside" />
       <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponent" typeId="e532.5961443109978821638" id="6168938315457612754" nodeInfo="ng">
-        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
+        <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
         <link role="component" roleId="e532.5961443109978837025" targetNodeId="6168938315457021831" resolveInfo="Buzzer" />
       </node>
       <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="6168938315457612758" nodeInfo="ng">
@@ -77,7 +77,7 @@
     <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="5961443109979005261" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="FireNotInside" />
       <node role="andComponents" roleId="e532.6743260208045728114" type="e532.AndComponent" typeId="e532.5961443109978821638" id="6168938315457612756" nodeInfo="ng">
-        <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
+        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
         <link role="component" roleId="e532.5961443109978837025" targetNodeId="6168938315457021831" resolveInfo="Buzzer" />
       </node>
       <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="6168938315457612762" nodeInfo="ng">
