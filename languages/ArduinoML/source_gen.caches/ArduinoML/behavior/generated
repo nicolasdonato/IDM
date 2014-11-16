@@ -4,7 +4,7 @@
   <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
-  <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" hash="-51l663gus8etpa47ifwxp26g0rl7zib" />
+  <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" hash="-8tvmlt2za248xwtrxskshrientwttj9" />
   <dep model="r:229ce18d-2bb0-4d5b-a7cd-cec65841e459(jetbrains.mps.lang.behavior.generator.template.main@generator)" hash="-1vtu6uptzx5l7n2n68xt5em9d6nhvec" />
   <dep model="r:7f489494-339f-481c-be61-2af4deb51551(jetbrains.mps.execution.util.behavior)" hash="e6vkk9xsk643zv63k7dfh9op5eultxb" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
@@ -31,7 +31,9 @@
     <file name="LCD_BehaviorDescriptor.java" />
     <file name="Machine_State_BehaviorDescriptor.java" />
     <file name="Named_Element_BehaviorDescriptor.java" />
+    <file name="OrTest_BehaviorDescriptor.java" />
     <file name="Sketch_BehaviorDescriptor.java" />
+    <file name="Test_BehaviorDescriptor.java" />
   </common>
 </dependencies>
 

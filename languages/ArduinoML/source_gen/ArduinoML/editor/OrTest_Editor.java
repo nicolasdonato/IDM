@@ -19,35 +19,35 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
-public class AndTest_Editor extends DefaultNodeEditor {
+public class OrTest_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_um4wy9_a(editorContext, node);
+    return this.createCollection_1tzenf_a(editorContext, node);
   }
 
-  private EditorCell createCollection_um4wy9_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_1tzenf_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_um4wy9_a");
+    editorCell.setCellId("Collection_1tzenf_a");
     editorCell.setBig(true);
-    editorCell.addEditorCell(this.createIndentCell_um4wy9_a0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_um4wy9_b0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_um4wy9_c0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_um4wy9_d0(editorContext, node));
-    editorCell.addEditorCell(this.createIndentCell_um4wy9_e0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_um4wy9_f0(editorContext, node));
+    editorCell.addEditorCell(this.createIndentCell_1tzenf_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_1tzenf_b0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_1tzenf_c0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_1tzenf_d0(editorContext, node));
+    editorCell.addEditorCell(this.createIndentCell_1tzenf_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_1tzenf_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createIndentCell_um4wy9_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_1tzenf_a0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     return editorCell;
   }
 
-  private EditorCell createRefCell_um4wy9_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_1tzenf_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("component");
     provider.setNoTargetText("<no component>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AndTest_Editor._Inline_um4wy9_a1a());
+    provider.setAuxiliaryCellProvider(new OrTest_Editor._Inline_1tzenf_a1a());
     editorCell = provider.createEditorCell(editorContext);
     if (editorCell.getRole() == null) {
       editorCell.setReferenceCell(true);
@@ -64,8 +64,8 @@ public class AndTest_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline_um4wy9_a1a extends InlineCellProvider {
-    public _Inline_um4wy9_a1a() {
+  public static class _Inline_1tzenf_a1a extends InlineCellProvider {
+    public _Inline_1tzenf_a1a() {
       super();
     }
 
@@ -74,10 +74,10 @@ public class AndTest_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_um4wy9_a0b0(editorContext, node);
+      return this.createProperty_1tzenf_a0b0(editorContext, node);
     }
 
-    private EditorCell createProperty_um4wy9_a0b0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_1tzenf_a0b0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -97,7 +97,7 @@ public class AndTest_Editor extends DefaultNodeEditor {
     }
   }
 
-  private EditorCell createProperty_um4wy9_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_1tzenf_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("operator");
     provider.setNoTargetText("<no operator>");
@@ -115,7 +115,7 @@ public class AndTest_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_um4wy9_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_1tzenf_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("value");
     provider.setNoTargetText("<no value>");
@@ -133,7 +133,7 @@ public class AndTest_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createIndentCell_um4wy9_e0(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_1tzenf_e0(EditorContext editorContext, SNode node) {
     EditorCell_Indent editorCell = new EditorCell_Indent(editorContext, node);
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
@@ -142,7 +142,7 @@ public class AndTest_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_um4wy9_f0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_1tzenf_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("test");
     provider.setNoTargetText("<no test>");

@@ -120,5 +120,17 @@
     </dependencies>
     <rename id="e532.5961443109978837025" type="REFERENCE" from="cmp" to="component" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="19" />
+    </dependencies>
+    <rename id="e532.7566270540795075230" type="PROPERTY" from="al" to="value" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="20" />
+    </dependencies>
+    <rename id="e532.7566270540795098879" type="CHILD" from="e" to="test" />
+  </StructureModification>
 </history>
 

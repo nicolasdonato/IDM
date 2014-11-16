@@ -18,7 +18,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 1:
         return new ConceptDescriptorBuilder("ArduinoML.structure.AndComponent").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value").references("component").children(new String[]{"and"}, new boolean[]{false}).create();
       case 2:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.AndTest").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value", "operator").references("component").children(new String[]{"and"}, new boolean[]{false}).create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.AndTest").super_("ArduinoML.structure.Test").parents("ArduinoML.structure.Test").create();
       case 3:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Component").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").properties("pin", "signal").abstract_().create();
       case 4:
@@ -32,11 +32,15 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 8:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Named_Element").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("name").abstract_().create();
       case 9:
+        return new ConceptDescriptorBuilder("ArduinoML.structure.OrTest").super_("ArduinoML.structure.Test").parents("ArduinoML.structure.Test").create();
+      case 10:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Sketch").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element", "jetbrains.mps.lang.core.structure.INamedConcept", "jetbrains.mps.execution.util.structure.IMainClass").children(new String[]{"machineStates", "components"}, new boolean[]{true, true}).create();
+      case 11:
+        return new ConceptDescriptorBuilder("ArduinoML.structure.Test").super_("jetbrains.mps.lang.core.structure.BaseConcept").parents("jetbrains.mps.lang.core.structure.BaseConcept").properties("value", "operator").references("component").children(new String[]{"test"}, new boolean[]{false}).abstract_().create();
       default:
         return StructureAspectInterpreted.getInstance().getDescriptor(conceptFqName);
     }
   }
 
-  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.AndComponent", "ArduinoML.structure.AndTest", "ArduinoML.structure.Component", "ArduinoML.structure.Component_IN", "ArduinoML.structure.Component_OUT", "ArduinoML.structure.LCD", "ArduinoML.structure.Machine_State", "ArduinoML.structure.Named_Element", "ArduinoML.structure.Sketch"};
+  private static String[] stringSwitchCases_1htk8d_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.AndComponent", "ArduinoML.structure.AndTest", "ArduinoML.structure.Component", "ArduinoML.structure.Component_IN", "ArduinoML.structure.Component_OUT", "ArduinoML.structure.LCD", "ArduinoML.structure.Machine_State", "ArduinoML.structure.Named_Element", "ArduinoML.structure.OrTest", "ArduinoML.structure.Sketch", "ArduinoML.structure.Test"};
 }
