@@ -83,6 +83,7 @@ public class Sketch_TextGen extends SNodeTextGen {
           if (SPropertyOperations.getBoolean(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "usePreviousValue")) {
             this.append(" && prev");
             this.append(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "name"));
+            this.append(" == LOW");
           }
           this.append(") {");
           appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "andComponents", true));

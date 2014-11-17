@@ -11,11 +11,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 public class OrTest_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
     if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("digital")) {
-      this.append("readDigital");
+      this.append("digital");
     } else if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("analogic")) {
-      this.append("readAnalogic");
+      this.append("analogic");
     }
-    this.append("{");
+    this.append("Read(");
     this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(node, "component", false), "pin")));
     this.append(") ");
     this.append(SPropertyOperations.getString_def(node, "operator", "=="));

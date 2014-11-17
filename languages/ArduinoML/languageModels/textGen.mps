@@ -320,6 +320,9 @@
                               </node>
                             </node>
                           </node>
+                          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="6917712446463112857" nodeInfo="ng">
+                            <property name="value" nameId="2omo.1237305576108" value=" == LOW" />
+                          </node>
                         </node>
                       </node>
                       <node role="condition" roleId="tpee.1068580123160" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4954859863374178381" nodeInfo="nn">
@@ -597,7 +600,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5961443109978531748" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="5961443109978551761" nodeInfo="nn">
               <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5961443109978551781" nodeInfo="ng">
-                <property name="value" nameId="2omo.1237305576108" value="readDigital" />
+                <property name="value" nameId="2omo.1237305576108" value="digital" />
               </node>
             </node>
           </node>
@@ -643,7 +646,7 @@
             <node role="statementList" roleId="tpee.1206060644605" type="tpee.StatementList" typeId="tpee.1068580123136" id="5961443109978551834" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="5961443109978560719" nodeInfo="nn">
                 <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5961443109978560739" nodeInfo="ng">
-                  <property name="value" nameId="2omo.1237305576108" value="readAnalogic" />
+                  <property name="value" nameId="2omo.1237305576108" value="analogic" />
                 </node>
               </node>
             </node>
@@ -651,7 +654,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="5961443109978561192" nodeInfo="nn">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5961443109978561528" nodeInfo="ng">
-            <property name="value" nameId="2omo.1237305576108" value="(" />
+            <property name="value" nameId="2omo.1237305576108" value="Read(" />
           </node>
           <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="5961443109978566806" nodeInfo="ng">
             <node role="value" roleId="2omo.1237305790512" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="5961443109978567275" nodeInfo="nn">
@@ -773,7 +776,7 @@
                 <property name="value" nameId="2omo.1237305576108" value="        " />
               </node>
               <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5961443109978921240" nodeInfo="ng">
-                <property name="value" nameId="2omo.1237305576108" value="writeDigital" />
+                <property name="value" nameId="2omo.1237305576108" value="digital" />
               </node>
             </node>
           </node>
@@ -822,7 +825,7 @@
                   <property name="value" nameId="2omo.1237305576108" value="        " />
                 </node>
                 <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5961443109978929535" nodeInfo="ng">
-                  <property name="value" nameId="2omo.1237305576108" value="writeAnalogic" />
+                  <property name="value" nameId="2omo.1237305576108" value="analogic" />
                 </node>
               </node>
             </node>
@@ -830,7 +833,27 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="5961443109978929959" nodeInfo="nn">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5961443109978930300" nodeInfo="ng">
-            <property name="value" nameId="2omo.1237305576108" value="(" />
+            <property name="value" nameId="2omo.1237305576108" value="Write(" />
+          </node>
+          <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="6917712446463373097" nodeInfo="ng">
+            <node role="value" roleId="2omo.1237305790512" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6917712446463418869" nodeInfo="nn">
+              <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~String" resolveInfo="String" />
+              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~String%dvalueOf(int)%cjava%dlang%dString" resolveInfo="valueOf" />
+              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6917712446463420670" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6917712446463419174" nodeInfo="nn">
+                  <node role="operand" roleId="tpee.1197027771414" type="2omo.NodeParameter" typeId="2omo.1233748055915" id="6917712446463418993" nodeInfo="nn" />
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6917712446463419786" nodeInfo="nn">
+                    <link role="link" roleId="tp25.1138056516764" targetNodeId="e532.5961443109978837025" />
+                  </node>
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6917712446463421985" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="e532.1275236291302728373" resolveInfo="pin" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="6917712446463372469" nodeInfo="ng">
+            <property name="value" nameId="2omo.1237305576108" value=", " />
           </node>
           <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="5961443109978931797" nodeInfo="ng">
             <node role="value" roleId="2omo.1237305790512" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5961443109978932237" nodeInfo="nn">
@@ -878,7 +901,7 @@
           <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="7566270540795183375" nodeInfo="sn">
             <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="7566270540795191173" nodeInfo="nn">
               <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="7566270540795191193" nodeInfo="ng">
-                <property name="value" nameId="2omo.1237305576108" value="readDigital" />
+                <property name="value" nameId="2omo.1237305576108" value="digital" />
               </node>
             </node>
           </node>
@@ -924,7 +947,7 @@
             <node role="statementList" roleId="tpee.1206060644605" type="tpee.StatementList" typeId="tpee.1068580123136" id="7566270540795191304" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="7566270540795199175" nodeInfo="nn">
                 <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="7566270540795199195" nodeInfo="ng">
-                  <property name="value" nameId="2omo.1237305576108" value="readAnalogic" />
+                  <property name="value" nameId="2omo.1237305576108" value="analogic" />
                 </node>
               </node>
             </node>
@@ -932,7 +955,7 @@
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="7566270540795199641" nodeInfo="nn">
           <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="7566270540795200008" nodeInfo="ng">
-            <property name="value" nameId="2omo.1237305576108" value="{" />
+            <property name="value" nameId="2omo.1237305576108" value="Read(" />
           </node>
           <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="7566270540795200616" nodeInfo="ng">
             <node role="value" roleId="2omo.1237305790512" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7566270540795201032" nodeInfo="nn">

@@ -12,12 +12,14 @@ public class AndComponent_TextGen extends SNodeTextGen {
     this.appendNewLine();
     if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("digital")) {
       this.append("        ");
-      this.append("writeDigital");
+      this.append("digital");
     } else if (SPropertyOperations.getString_def(SLinkOperations.getTarget(node, "component", false), "signal", "analogic").equalsIgnoreCase("analogic")) {
       this.append("        ");
-      this.append("writeAnalogic");
+      this.append("analogic");
     }
-    this.append("(");
+    this.append("Write(");
+    this.append(String.valueOf(SPropertyOperations.getInteger(SLinkOperations.getTarget(node, "component", false), "pin")));
+    this.append(", ");
     this.append(SPropertyOperations.getString(node, "value"));
     this.append(");");
     if (SLinkOperations.getTarget(node, "and", true) != null) {
