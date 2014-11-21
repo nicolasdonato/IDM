@@ -6,9 +6,9 @@ void setup() {
 }
 
 void loop() {
-    if (analogicRead(8) == LOW || analogicRead(10) == LOW) {
-        analogicWrite(12, LOW);
-    } else if (analogicRead(8) == HIGH && analogicRead(10) == HIGH) {
-        analogicWrite(12, HIGH);
+    if (digitalRead(8) == LOW || digitalRead(10) == LOW) {
+        digitalWrite(12, LOW);
+    } else if (digitalRead(8) == HIGH && digitalRead(10) == HIGH) {
+        digitalWrite(12, HIGH);
     }
 }

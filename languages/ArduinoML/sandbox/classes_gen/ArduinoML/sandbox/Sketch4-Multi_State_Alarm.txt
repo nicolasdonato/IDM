@@ -8,13 +8,13 @@ void setup() {
 }
 
 void loop() {
-    if (analogicRead(8) == HIGH && prevOn == LOW) {
-        analogicWrite(11, HIGH);
-        analogicWrite(12, LOW);
-    } else if (analogicRead(8) == LOW && prevOff == HIGH) {
-        analogicWrite(11, LOW);
-        analogicWrite(12, HIGH);
+    if (digitalRead(8) == HIGH && prevOn == LOW) {
+        digitalWrite(11, HIGH);
+        digitalWrite(12, LOW);
+    } else if (digitalRead(8) == LOW && prevOff == HIGH) {
+        digitalWrite(11, LOW);
+        digitalWrite(12, HIGH);
     }
-    prevOff = analogicRead(8);
-    prevOn = analogicRead(8);
+    prevOff = digitalRead(8);
+    prevOn = digitalRead(8);
 }

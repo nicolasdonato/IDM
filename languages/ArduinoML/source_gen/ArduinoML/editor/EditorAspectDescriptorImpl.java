@@ -28,12 +28,14 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
       case 5:
         return Collections.<ConceptEditor>singletonList(new Component_OUT_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new Machine_State_Editor());
+        return Collections.<ConceptEditor>singletonList(new LCD_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new OrTest_Editor());
+        return Collections.<ConceptEditor>singletonList(new Machine_State_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new Sketch_Editor());
+        return Collections.<ConceptEditor>singletonList(new OrTest_Editor());
       case 9:
+        return Collections.<ConceptEditor>singletonList(new Sketch_Editor());
+      case 10:
         return Collections.<ConceptEditor>singletonList(new UsePreviousState_Editor());
       default:
     }
@@ -46,5 +48,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.AndComponent", "ArduinoML.structure.AndComponentLCDTemperature", "ArduinoML.structure.AndTest", "ArduinoML.structure.Component_IN", "ArduinoML.structure.Component_OUT", "ArduinoML.structure.Machine_State", "ArduinoML.structure.OrTest", "ArduinoML.structure.Sketch", "ArduinoML.structure.UsePreviousState"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.AndComponent", "ArduinoML.structure.AndComponentLCDTemperature", "ArduinoML.structure.AndTest", "ArduinoML.structure.Component_IN", "ArduinoML.structure.Component_OUT", "ArduinoML.structure.LCD", "ArduinoML.structure.Machine_State", "ArduinoML.structure.OrTest", "ArduinoML.structure.Sketch", "ArduinoML.structure.UsePreviousState"};
 }

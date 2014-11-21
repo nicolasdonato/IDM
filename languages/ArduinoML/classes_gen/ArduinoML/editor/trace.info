@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="51" endPosition="0" unitName="ArduinoML.editor.EditorAspectDescriptorImpl" />
+  <unitInfo fileName="EditorAspectDescriptorImpl.java" startLine="13" startPosition="0" endLine="53" endPosition="0" unitName="ArduinoML.editor.EditorAspectDescriptorImpl" />
   <root nodeRef="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/1289569606770423120">
     <nodeInfo nodeId="1289569606770423120" fileName="Component_IN_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
     <nodeInfo nodeId="1289569606770423120" fileName="Component_IN_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
@@ -2280,6 +2280,229 @@
     </scopeInfo>
     <unitInfo nodeId="6743260208045875596" fileName="Action_Editor.java" startLine="79" startPosition="0" endLine="111" endPosition="0" unitName="ArduinoML.editor.Action_Editor$_Inline_8bscln_a2a" />
     <unitInfo nodeId="6743260208045875528" fileName="Action_Editor.java" startLine="23" startPosition="0" endLine="164" endPosition="0" unitName="ArduinoML.editor.Action_Editor" />
+  </root>
+  <root nodeRef="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/6966832599821317910">
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="25" startPosition="89" endLine="26" endPosition="96" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="26" startPosition="96" endLine="27" endPosition="48" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="27" startPosition="48" endLine="28" endPosition="28" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="31" startPosition="83" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="31" startPosition="83" endLine="32" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="83" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="34" startPosition="83" endLine="35" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="34" startPosition="83" endLine="35" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="35" startPosition="81" endLine="36" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="35" startPosition="81" endLine="36" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="36" startPosition="81" endLine="37" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.BlockStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="36" startPosition="81" endLine="37" endPosition="81" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="37" startPosition="81" endLine="38" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="41" startPosition="88" endLine="42" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="42" startPosition="82" endLine="43" endPosition="29" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="43" startPosition="29" endLine="44" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="44" startPosition="42" endLine="45" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="45" startPosition="26" endLine="46" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="46" startPosition="58" endLine="47" endPosition="42" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="47" startPosition="42" endLine="48" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="48" startPosition="34" endLine="49" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="49" startPosition="58" endLine="50" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="50" startPosition="40" endLine="51" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="51" startPosition="73" endLine="52" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="52" startPosition="57" endLine="53" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="54" startPosition="35" endLine="55" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="55" startPosition="72" endLine="56" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="56" startPosition="78" endLine="57" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="58" startPosition="10" endLine="59" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339042" fileName="LCD_Editor.java" startLine="62" startPosition="88" endLine="63" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339042" fileName="LCD_Editor.java" startLine="63" startPosition="87" endLine="64" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339042" fileName="LCD_Editor.java" startLine="64" startPosition="47" endLine="65" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339042" fileName="LCD_Editor.java" startLine="65" startPosition="34" endLine="66" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="69" startPosition="90" endLine="70" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="70" startPosition="78" endLine="71" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="71" startPosition="34" endLine="72" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="72" startPosition="63" endLine="73" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="73" startPosition="58" endLine="74" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="74" startPosition="40" endLine="75" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339060" fileName="LCD_Editor.java" startLine="78" startPosition="88" endLine="79" endPosition="90" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339060" fileName="LCD_Editor.java" startLine="79" startPosition="90" endLine="80" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339060" fileName="LCD_Editor.java" startLine="80" startPosition="47" endLine="81" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339060" fileName="LCD_Editor.java" startLine="81" startPosition="34" endLine="82" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="85" startPosition="88" endLine="86" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="86" startPosition="82" endLine="87" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="87" startPosition="31" endLine="88" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="88" startPosition="44" endLine="89" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="89" startPosition="26" endLine="90" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="90" startPosition="58" endLine="91" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="91" startPosition="44" endLine="92" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="92" startPosition="73" endLine="93" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="93" startPosition="57" endLine="94" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="95" startPosition="35" endLine="96" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="96" startPosition="72" endLine="97" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="97" startPosition="78" endLine="98" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="99" startPosition="10" endLine="100" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="103" startPosition="90" endLine="104" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="104" startPosition="78" endLine="105" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="105" startPosition="34" endLine="106" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="106" startPosition="63" endLine="107" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="107" startPosition="58" endLine="108" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="108" startPosition="40" endLine="109" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339102" fileName="LCD_Editor.java" startLine="112" startPosition="88" endLine="113" endPosition="93" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339102" fileName="LCD_Editor.java" startLine="113" startPosition="93" endLine="114" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339102" fileName="LCD_Editor.java" startLine="114" startPosition="47" endLine="115" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339102" fileName="LCD_Editor.java" startLine="115" startPosition="34" endLine="116" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="119" startPosition="88" endLine="120" endPosition="82" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="120" startPosition="82" endLine="121" endPosition="31" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="121" startPosition="31" endLine="122" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="122" startPosition="44" endLine="123" endPosition="26" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="123" startPosition="26" endLine="124" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="124" startPosition="58" endLine="125" endPosition="44" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="125" startPosition="44" endLine="126" endPosition="73" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="126" startPosition="73" endLine="127" endPosition="57" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="127" startPosition="57" endLine="128" endPosition="59" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="129" startPosition="35" endLine="130" endPosition="72" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="130" startPosition="72" endLine="131" endPosition="78" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="131" startPosition="78" endLine="132" endPosition="109" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="133" startPosition="10" endLine="134" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="137" startPosition="88" endLine="138" endPosition="87" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="138" startPosition="87" endLine="139" endPosition="47" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="139" startPosition="47" endLine="140" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="140" startPosition="34" endLine="141" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="141" startPosition="63" endLine="142" endPosition="58" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="142" startPosition="58" endLine="143" endPosition="40" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="143" startPosition="40" endLine="144" endPosition="34" conceptFqName="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="144" startPosition="34" endLine="145" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="53" startPosition="59" endLine="59" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6966832599821339042" fileName="LCD_Editor.java" startLine="62" startPosition="0" endLine="68" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_15z4tr_b0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339060" fileName="LCD_Editor.java" startLine="78" startPosition="0" endLine="84" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_15z4tr_d0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="94" startPosition="59" endLine="100" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6966832599821339102" fileName="LCD_Editor.java" startLine="112" startPosition="0" endLine="118" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_15z4tr_g0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="128" startPosition="59" endLine="134" endPosition="22" conceptFqName="jetbrains.mps.baseLanguage.structure.IfStatement" />
+    <nodeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="69" startPosition="0" endLine="77" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createIndentCell_15z4tr_c0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="103" startPosition="0" endLine="111" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createIndentCell_15z4tr_f0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="137" startPosition="0" endLine="147" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createConstant_15z4tr_i0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="25" startPosition="0" endLine="40" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createCollection_15z4tr_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="85" startPosition="0" endLine="102" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_15z4tr_e0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="119" startPosition="0" endLine="136" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_15z4tr_h0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <nodeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="41" startPosition="0" endLine="61" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" propertyString="createProperty_15z4tr_a0#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="21" startPosition="79" endLine="22" endPosition="63" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="28" startPosition="28" endLine="29" endPosition="81" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="29" startPosition="81" endLine="30" endPosition="81" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="30" startPosition="81" endLine="31" endPosition="83" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="31" startPosition="83" endLine="32" endPosition="81" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="32" startPosition="81" endLine="33" endPosition="81" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="33" startPosition="81" endLine="34" endPosition="83" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="34" startPosition="83" endLine="35" endPosition="81" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="35" startPosition="81" endLine="36" endPosition="81" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="36" startPosition="81" endLine="37" endPosition="81" />
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="21" startPosition="0" endLine="24" endPosition="0">
+      <varInfo nodeId="6966832599821317910" varName="editorContext" />
+      <varInfo nodeId="6966832599821317910" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="54" startPosition="35" endLine="57" endPosition="109">
+      <varInfo nodeId="6966832599821339036" varName="manager" />
+      <varInfo nodeId="6966832599821339036" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="95" startPosition="35" endLine="98" endPosition="109">
+      <varInfo nodeId="6966832599821339072" varName="manager" />
+      <varInfo nodeId="6966832599821339072" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="129" startPosition="35" endLine="132" endPosition="109">
+      <varInfo nodeId="6966832599821339120" varName="manager" />
+      <varInfo nodeId="6966832599821339120" varName="opContext" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339042" fileName="LCD_Editor.java" startLine="62" startPosition="88" endLine="66" endPosition="22">
+      <varInfo nodeId="6966832599821339042" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339060" fileName="LCD_Editor.java" startLine="78" startPosition="88" endLine="82" endPosition="22">
+      <varInfo nodeId="6966832599821339060" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339102" fileName="LCD_Editor.java" startLine="112" startPosition="88" endLine="116" endPosition="22">
+      <varInfo nodeId="6966832599821339102" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339042" fileName="LCD_Editor.java" startLine="62" startPosition="0" endLine="68" endPosition="0">
+      <varInfo nodeId="6966832599821339042" varName="editorContext" />
+      <varInfo nodeId="6966832599821339042" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="69" startPosition="90" endLine="75" endPosition="22">
+      <varInfo nodeId="6966832599821339050" varName="editorCell" />
+      <varInfo nodeId="6966832599821339050" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339060" fileName="LCD_Editor.java" startLine="78" startPosition="0" endLine="84" endPosition="0">
+      <varInfo nodeId="6966832599821339060" varName="editorContext" />
+      <varInfo nodeId="6966832599821339060" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="103" startPosition="90" endLine="109" endPosition="22">
+      <varInfo nodeId="6966832599821339086" varName="editorCell" />
+      <varInfo nodeId="6966832599821339086" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339102" fileName="LCD_Editor.java" startLine="112" startPosition="0" endLine="118" endPosition="0">
+      <varInfo nodeId="6966832599821339102" varName="editorContext" />
+      <varInfo nodeId="6966832599821339102" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339050" fileName="LCD_Editor.java" startLine="69" startPosition="0" endLine="77" endPosition="0">
+      <varInfo nodeId="6966832599821339050" varName="editorContext" />
+      <varInfo nodeId="6966832599821339050" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339086" fileName="LCD_Editor.java" startLine="103" startPosition="0" endLine="111" endPosition="0">
+      <varInfo nodeId="6966832599821339086" varName="editorContext" />
+      <varInfo nodeId="6966832599821339086" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="137" startPosition="88" endLine="145" endPosition="22">
+      <varInfo nodeId="6966832599821339140" varName="editorCell" />
+      <varInfo nodeId="6966832599821339140" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339140" fileName="LCD_Editor.java" startLine="137" startPosition="0" endLine="147" endPosition="0">
+      <varInfo nodeId="6966832599821339140" varName="editorContext" />
+      <varInfo nodeId="6966832599821339140" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="25" startPosition="89" endLine="38" endPosition="22">
+      <varInfo nodeId="6966832599821317910" varName="editorCell" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="25" startPosition="0" endLine="40" endPosition="0">
+      <varInfo nodeId="6966832599821317910" varName="editorContext" />
+      <varInfo nodeId="6966832599821317910" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="85" startPosition="88" endLine="100" endPosition="22">
+      <varInfo nodeId="6966832599821339072" varName="attributeConcept" />
+      <varInfo nodeId="6966832599821339072" varName="attributeKind" />
+      <varInfo nodeId="6966832599821339072" varName="editorCell" />
+      <varInfo nodeId="6966832599821339072" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="119" startPosition="88" endLine="134" endPosition="22">
+      <varInfo nodeId="6966832599821339120" varName="attributeConcept" />
+      <varInfo nodeId="6966832599821339120" varName="attributeKind" />
+      <varInfo nodeId="6966832599821339120" varName="editorCell" />
+      <varInfo nodeId="6966832599821339120" varName="provider" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339072" fileName="LCD_Editor.java" startLine="85" startPosition="0" endLine="102" endPosition="0">
+      <varInfo nodeId="6966832599821339072" varName="editorContext" />
+      <varInfo nodeId="6966832599821339072" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339120" fileName="LCD_Editor.java" startLine="119" startPosition="0" endLine="136" endPosition="0">
+      <varInfo nodeId="6966832599821339120" varName="editorContext" />
+      <varInfo nodeId="6966832599821339120" varName="node" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="41" startPosition="88" endLine="59" endPosition="22">
+      <varInfo nodeId="6966832599821339036" varName="attributeConcept" />
+      <varInfo nodeId="6966832599821339036" varName="attributeKind" />
+      <varInfo nodeId="6966832599821339036" varName="editorCell" />
+      <varInfo nodeId="6966832599821339036" varName="provider" />
+      <varInfo nodeId="6966832599821339036" varName="style" />
+    </scopeInfo>
+    <scopeInfo nodeId="6966832599821339036" fileName="LCD_Editor.java" startLine="41" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="6966832599821339036" varName="editorContext" />
+      <varInfo nodeId="6966832599821339036" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="6966832599821317910" fileName="LCD_Editor.java" startLine="20" startPosition="0" endLine="148" endPosition="0" unitName="ArduinoML.editor.LCD_Editor" />
   </root>
   <root nodeRef="r:7e93ca31-880f-4ecd-a66b-ee11be520981(ArduinoML.editor)/7122776117853505060">
     <nodeInfo nodeId="7122776117853505060" fileName="UsePreviousState_Editor.java" startLine="19" startPosition="79" endLine="20" endPosition="63" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

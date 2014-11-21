@@ -28,7 +28,7 @@ public class StructureAspectDescriptor implements jetbrains.mps.smodel.runtime.S
       case 6:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Component_OUT").super_("ArduinoML.structure.Component").parents("ArduinoML.structure.Component").create();
       case 7:
-        return new ConceptDescriptorBuilder("ArduinoML.structure.LCD").super_("ArduinoML.structure.Component_OUT").parents("ArduinoML.structure.Component_OUT").create();
+        return new ConceptDescriptorBuilder("ArduinoML.structure.LCD").super_("ArduinoML.structure.Component_OUT").parents("ArduinoML.structure.Component_OUT").properties("pinLCD").create();
       case 8:
         return new ConceptDescriptorBuilder("ArduinoML.structure.Machine_State").super_("ArduinoML.structure.Named_Element").parents("ArduinoML.structure.Named_Element").children(new String[]{"andComponents", "action", "usePreviousState"}, new boolean[]{false, false, false}).create();
       case 9:

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="8hufi4xabv94cg5nz6hy6dip629jb97">
+<dependencies version="2" modelHash="-comqtiy1qvzwfje1ypk2k8ma0xafhmf">
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cellLayout(MPS.Editor/jetbrains.mps.nodeEditor.cellLayout@java_stub)" />
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
   <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.descriptor(MPS.Editor/jetbrains.mps.openapi.editor.descriptor@java_stub)" />
@@ -7,7 +7,7 @@
   <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" hash="86959aj3hruza3jrem733b02sp73xb0" />
   <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
   <dep model="r:00000000-0000-4000-0000-011c89590303(jetbrains.mps.lang.smodel.generator.baseLanguage.template.main@generator)" hash="-8z73tx2nml9xagbxlfmq60ehji8q3f5" />
-  <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" hash="-u4uu0ib6yksbgnhpfblmczarbyez5a" />
+  <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" hash="5z6ysrhxm8o4fffq6x3hlvj56ohvp6v" />
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
   <common hash="diykd1na6tod36vhkqk39ibrx6skn8n" dependsOnNodes="true">
@@ -19,6 +19,7 @@
     <dep root="6743260208045785681" />
     <dep root="6743260208045785802" />
     <dep root="6743260208045875528" />
+    <dep root="6966832599821317910" />
     <dep root="7122776117853505060" />
     <dep root="7566270540795248796" />
     <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.descriptor(MPS.Editor/jetbrains.mps.openapi.editor.descriptor@java_stub)" />
@@ -93,6 +94,12 @@
     <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
     <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" />
     <file name="UsePreviousState_Editor.java" />
+  </source>
+  <source id="6966832599821317910" name="LCD_Editor" hash="bu7cg13s29fhyhqixjz2qzeivxjj174">
+    <dep model="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cells(MPS.Editor/jetbrains.mps.nodeEditor.cells@java_stub)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959029f(jetbrains.mps.lang.editor.generator.baseLanguage.template.main@generator)" />
+    <dep model="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" />
+    <file name="LCD_Editor.java" />
   </source>
 </dependencies>
 

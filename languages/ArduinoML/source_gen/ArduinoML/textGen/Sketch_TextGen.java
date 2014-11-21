@@ -19,7 +19,10 @@ public class Sketch_TextGen extends SNodeTextGen {
           this.append("#include <LiquidCrystal.h>");
           this.appendNewLine();
           this.appendNewLine();
-          this.append("LiquidCrystal lcd(12, 11, 5, 4, 3, 2);");
+          this.append("LiquidCrystal lcd(");
+          this.append(SPropertyOperations.getString(lcd, "pinLCD"));
+          this.append(");");
+          this.appendNewLine();
           break;
         }
       }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="26">
+<model modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="27">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="26" implicit="yes" />
+  <import index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="27" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1275236291302451753" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Named_Element" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
@@ -143,6 +143,10 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5961443109978642146" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="LCD" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="1275236291302713193" resolveInfo="Component_OUT" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6966832599821030598" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="pinLCD" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5961443109978821638" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="AndComponent" />

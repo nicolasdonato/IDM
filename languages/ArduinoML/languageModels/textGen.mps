@@ -41,8 +41,22 @@
                 <node role="statement" roleId="tpee.1068581517665" type="2omo.AppendOperation" typeId="2omo.1237306079178" id="5961443109978649524" nodeInfo="nn">
                   <node role="part" roleId="2omo.1237306115446" type="2omo.NewLineAppendPart" typeId="2omo.1237305208784" id="5961443109978649544" nodeInfo="ng" />
                   <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="5961443109978649582" nodeInfo="ng">
-                    <property name="value" nameId="2omo.1237305576108" value="LiquidCrystal lcd(12, 11, 5, 4, 3, 2);" />
+                    <property name="value" nameId="2omo.1237305576108" value="LiquidCrystal lcd(" />
                   </node>
+                  <node role="part" roleId="2omo.1237306115446" type="2omo.NodeAppendPart" typeId="2omo.1237305334312" id="6966832599821476478" nodeInfo="ng">
+                    <node role="value" roleId="2omo.1237305790512" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6966832599821477910" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tp25.IfInstanceOfVarReference" typeId="tp25.1883223317721107059" id="6966832599821477743" nodeInfo="nn">
+                        <link role="baseVariableDeclaration" roleId="tpee.5497648299878491909" targetNodeId="5961443109978648666" resolveInfo="lcd" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="6966832599821520885" nodeInfo="nn">
+                        <link role="property" roleId="tp25.1138056395725" targetNodeId="e532.6966832599821030598" resolveInfo="pinLCD" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="part" roleId="2omo.1237306115446" type="2omo.ConstantStringAppendPart" typeId="2omo.1237305557638" id="6966832599821477700" nodeInfo="ng">
+                    <property name="value" nameId="2omo.1237305576108" value=");" />
+                  </node>
+                  <node role="part" roleId="2omo.1237306115446" type="2omo.NewLineAppendPart" typeId="2omo.1237305208784" id="6966832599821570181" nodeInfo="ng" />
                 </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.BreakStatement" typeId="tpee.1081855346303" id="5961443109978649691" nodeInfo="nn" />
               </node>

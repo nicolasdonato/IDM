@@ -6,8 +6,8 @@ void setup() {
 
 void loop() {
     if (digitalRead(12) < 52) {
-        analogicWrite(11, LOW);
+        digitalWrite(11, LOW);
     } else if (digitalRead(12) >= 52) {
-        analogicWrite(11, HIGH);
+        digitalWrite(11, HIGH);
     }
 }

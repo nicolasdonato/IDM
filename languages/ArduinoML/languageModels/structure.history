@@ -162,5 +162,11 @@
     </dependencies>
     <rename id="e532.7122776117853184042" type="PROPERTY" from="a" to="value" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="26" />
+    </dependencies>
+    <rename id="e532.6966832599821030598" type="PROPERTY" from="in" to="pinLCD" />
+  </StructureModification>
 </history>
 
