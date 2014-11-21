@@ -4,7 +4,7 @@
   <unitInfo fileName="AndComponentLCDTemperature_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.AndComponentLCDTemperature_BehaviorDescriptor" />
   <unitInfo fileName="AndComponent_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ArduinoML.behavior.AndComponent_BehaviorDescriptor" />
   <unitInfo fileName="AndTest_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.AndTest_BehaviorDescriptor" />
-  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="42" endPosition="0" unitName="ArduinoML.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="44" endPosition="0" unitName="ArduinoML.behavior.BehaviorAspectDescriptor" />
   <unitInfo fileName="Component_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Component_BehaviorDescriptor" />
   <unitInfo fileName="Component_IN_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Component_IN_BehaviorDescriptor" />
   <unitInfo fileName="Component_OUT_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.Component_OUT_BehaviorDescriptor" />
@@ -14,5 +14,6 @@
   <unitInfo fileName="OrTest_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="ArduinoML.behavior.OrTest_BehaviorDescriptor" />
   <unitInfo fileName="Sketch_BehaviorDescriptor.java" startLine="11" startPosition="0" endLine="32" endPosition="0" unitName="ArduinoML.behavior.Sketch_BehaviorDescriptor" />
   <unitInfo fileName="Test_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ArduinoML.behavior.Test_BehaviorDescriptor" />
+  <unitInfo fileName="UsePreviousState_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="ArduinoML.behavior.UsePreviousState_BehaviorDescriptor" />
 </debugInfo>
 

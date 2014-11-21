@@ -16,13 +16,16 @@ public class Sketch_TextGen extends SNodeTextGen {
         SNode lcd = component;
         if (SNodeOperations.isInstanceOf(lcd, "ArduinoML.structure.LCD")) {
           this.appendNewLine();
+          this.append("#include <LiquidCrystal.h>");
+          this.appendNewLine();
+          this.appendNewLine();
           this.append("LiquidCrystal lcd(12, 11, 5, 4, 3, 2);");
           break;
         }
       }
     }
     for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
-      if (SPropertyOperations.getBoolean(state, "usePreviousValue")) {
+      if (SLinkOperations.getTarget(state, "usePreviousState", true) != null) {
         this.appendNewLine();
         this.append("int prev");
         this.append(SPropertyOperations.getString(state, "name"));
@@ -80,10 +83,13 @@ public class Sketch_TextGen extends SNodeTextGen {
           }
           this.append("if (");
           appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true));
-          if (SPropertyOperations.getBoolean(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "usePreviousValue")) {
+          if (SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "usePreviousState", true) != null) {
             this.append(" && prev");
             this.append(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "name"));
-            this.append(" == LOW");
+            this.append(" ");
+            this.append(SPropertyOperations.getString_def(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "usePreviousState", true), "operator", "=="));
+            this.append(" ");
+            this.append(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "usePreviousState", true), "value"));
           }
           this.append(") {");
           appendNode(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "nextState", false), "andComponents", true));
@@ -96,7 +102,7 @@ public class Sketch_TextGen extends SNodeTextGen {
       this.decreaseDepth();
     }
     for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
-      if (SPropertyOperations.getBoolean(state, "usePreviousValue")) {
+      if (SLinkOperations.getTarget(state, "usePreviousState", true) != null) {
         this.appendNewLine();
         this.append("    ");
         this.append("prev");
