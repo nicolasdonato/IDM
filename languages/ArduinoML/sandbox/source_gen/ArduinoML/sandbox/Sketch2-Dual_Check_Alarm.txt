@@ -1,0 +1,14 @@
+
+void setup() {
+    pinMode(8, INPUT);
+    pinMode(10, INPUT);
+    pinMode(12, OUTPUT);
+}
+
+void loop() {
+    if (analogicRead(8) == LOW || analogicRead(10) == LOW) {
+        analogicWrite(12, LOW);
+    } else if (analogicRead(8) == HIGH && analogicRead(10) == HIGH) {
+        analogicWrite(12, HIGH);
+    }
+}

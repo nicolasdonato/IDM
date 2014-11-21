@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-5ey19qo5mxyciakalgiy5th7hecpk8b">
-  <common hash="-3sdfm7t0c5583r57ls1uk89l83q3lzg" />
-  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="-4sgxxwqm8sb8ar1ic294s78kqfsk29a">
+<dependencies version="2" modelHash="1qyv8w5n2gtd3bqjwn4x108i1r1krw4">
+  <common hash="-6nnmmte8fm2kgjs0c7ks03qnz3k74ct" />
+  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="eup5oxzyqtnml32sx1sg3hbjhqvebco">
     <file name="Sketch1-Very_Simple_Alarm.txt" />
   </source>
-  <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="aj1oshr8605lubxhizyf6seuilpi7i4">
+  <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="6qoh2ootg1czxr5w1no2wxpe4m7ea7c">
     <file name="Sketch_Ext1-Handling_Analogical_Bricks.txt" />
   </source>
-  <source id="1289569606770260318" name="Skecth_Ext2" hash="-4jnqdgkcntaetj2h8pks4g92vhxd0xj">
-    <file name="Skecth_Ext2.txt" />
+  <source id="1289569606770260318" name="Sketch_Ext2-Supporting_the_LCD_screen" hash="12vk6tks4r6cmakowtqj8t2xluonwqe">
+    <file name="Sketch_Ext2-Supporting_the_LCD_screen.txt" />
+  </source>
+  <source id="7566270540795072619" name="Sketch2-Dual_Check_Alarm" hash="7mu7nf8snaejf8tnmyefh9kirmgo2fr">
+    <file name="Sketch2-Dual_Check_Alarm.txt" />
+  </source>
+  <source id="476062208239968535" name="Sketch3-State_Based_Alarm" hash="4n2k07qb1gvghf0w556pu8eysgcn8m9">
+    <file name="Sketch3-State_Based_Alarm.txt" />
+  </source>
+  <source id="7122776117853649434" name="Sketch4-Multi_State_Alarm" hash="9bjh04h0ieuw2dy8o6yhnfy7yi3dsbi">
+    <file name="Sketch4-Multi_State_Alarm.txt" />
   </source>
 </dependencies>
 

@@ -1,0 +1,15 @@
+
+int prevOn = LOW;
+void setup() {
+    pinMode(8, INPUT);
+    pinMode(12, OUTPUT);
+}
+
+void loop() {
+    if (analogicRead(8) == HIGH && prevOn == LOW) {
+        analogicWrite(12, HIGH);
+    } else if (analogicRead(8) == LOW) {
+        analogicWrite(12, LOW);
+    }
+    prevOn = analogicRead(8);
+}

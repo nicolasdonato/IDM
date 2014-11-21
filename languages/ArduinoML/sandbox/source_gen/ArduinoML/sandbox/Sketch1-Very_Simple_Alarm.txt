@@ -6,11 +6,11 @@ void setup() {
 }
 
 void loop() {
-    if (readAnalogic(12) == LOW) {
-        writeAnalogic(LOW);
-        writeAnalogic(LOW);
-    } else if (readAnalogic(12) == HIGH) {
-        writeAnalogic(HIGH);
-        writeAnalogic(HIGH);
+    if (analogicRead(12) == LOW) {
+        analogicWrite(8, LOW);
+        analogicWrite(9, LOW);
+    } else if (analogicRead(12) == HIGH) {
+        analogicWrite(8, HIGH);
+        analogicWrite(9, HIGH);
     }
 }
