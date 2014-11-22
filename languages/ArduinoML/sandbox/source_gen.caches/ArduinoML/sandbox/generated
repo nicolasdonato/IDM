@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-avv8yls9gj5njmjekjjazxxr5rw5r7r">
+<dependencies version="2" modelHash="-bxm9o7dbhq90ut1tmxftkff92avc7a3">
   <common hash="ec2ol0kxjkdlgdxf6xylokzvig8lvw5" />
-  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="-3pz63gg3hgfocwd6fabgnqdwjtojory">
+  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="-8ctx0jnid1iq280tgffxs0g1j99m04p">
     <file name="Sketch1-Very_Simple_Alarm.txt" />
   </source>
-  <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="-8d91vjfu3ndz6xkcupdyzlg7h1fq7ed">
+  <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="2ze6trkltnuzjg4du1gng6sgkg6w9nj">
     <file name="Sketch_Ext1-Handling_Analogical_Bricks.txt" />
   </source>
-  <source id="1289569606770260318" name="Sketch_Ext2-Supporting_the_LCD_screen" hash="ac10qcmn477vkcersctcqcbvxqu2xsb">
+  <source id="1289569606770260318" name="Sketch_Ext2-Supporting_the_LCD_screen" hash="auun9xpil41ataau15x0dicyqj0dj4">
     <file name="Sketch_Ext2-Supporting_the_LCD_screen.txt" />
   </source>
-  <source id="7566270540795072619" name="Sketch2-Dual_Check_Alarm" hash="6124a0lm6dn5atmssf8yso2xelblqmn">
+  <source id="7566270540795072619" name="Sketch2-Dual_Check_Alarm" hash="8mixt5jr5q3gtg02664lrqz8jg5fepq">
     <file name="Sketch2-Dual_Check_Alarm.txt" />
   </source>
   <source id="476062208239968535" name="Sketch3-State_Based_Alarm" hash="dx13mr9y0a2afk6drg0hkczbpxdt854">

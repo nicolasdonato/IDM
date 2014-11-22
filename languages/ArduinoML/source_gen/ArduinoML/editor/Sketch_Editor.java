@@ -142,7 +142,7 @@ public class Sketch_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_mhdsj4_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "States {");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Machine States {");
     editorCell.setCellId("Constant_mhdsj4_f0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
