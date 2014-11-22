@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-bxm9o7dbhq90ut1tmxftkff92avc7a3">
-  <common hash="ec2ol0kxjkdlgdxf6xylokzvig8lvw5" />
-  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="-8ctx0jnid1iq280tgffxs0g1j99m04p">
+<dependencies version="2" modelHash="-1uqh4ntn5nzgg0yo31k37z1nylmp0q3">
+  <common hash="-c6e7qwkoti1hx0bhxv7m8gs1xwjlcqw" />
+  <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="2j3otg8vgupv9tytf92f1mf2lvf8yxj">
     <file name="Sketch1-Very_Simple_Alarm.txt" />
   </source>
-  <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="2ze6trkltnuzjg4du1gng6sgkg6w9nj">
+  <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="-7bc526m2hianc8gszcglehwdzogo2v7">
     <file name="Sketch_Ext1-Handling_Analogical_Bricks.txt" />
   </source>
-  <source id="1289569606770260318" name="Sketch_Ext2-Supporting_the_LCD_screen" hash="auun9xpil41ataau15x0dicyqj0dj4">
+  <source id="1289569606770260318" name="Sketch_Ext2-Supporting_the_LCD_screen" hash="46b74stqagi14p1485mvu8xgp2huxeu">
     <file name="Sketch_Ext2-Supporting_the_LCD_screen.txt" />
   </source>
-  <source id="7566270540795072619" name="Sketch2-Dual_Check_Alarm" hash="8mixt5jr5q3gtg02664lrqz8jg5fepq">
+  <source id="7566270540795072619" name="Sketch2-Dual_Check_Alarm" hash="-yox1620q62aekyb6ia3ebq0chu6i1i">
     <file name="Sketch2-Dual_Check_Alarm.txt" />
   </source>
-  <source id="476062208239968535" name="Sketch3-State_Based_Alarm" hash="dx13mr9y0a2afk6drg0hkczbpxdt854">
+  <source id="476062208239968535" name="Sketch3-State_Based_Alarm" hash="1ddrc8r3v1va6zeyat2pcmbcldb7y99">
     <file name="Sketch3-State_Based_Alarm.txt" />
   </source>
-  <source id="7122776117853649434" name="Sketch4-Multi_State_Alarm" hash="-exleak709tt9nhk0jp0b0g2r5qwtt2h">
+  <source id="7122776117853649434" name="Sketch4-Multi_State_Alarm" hash="-dv3cago48dje00907ysx0a9eb5j2fg2">
     <file name="Sketch4-Multi_State_Alarm.txt" />
   </source>
 </dependencies>

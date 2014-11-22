@@ -23,21 +23,21 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
       case 0:
         return new Action_BehaviorDescriptor();
       case 3:
-        return new AndTest_BehaviorDescriptor();
+        return new And_Test_BehaviorDescriptor();
       case 6:
         return new LCD_BehaviorDescriptor();
       case 1:
-        return new AndComponent_BehaviorDescriptor();
+        return new And_Component_BehaviorDescriptor();
       case 8:
-        return new OrTest_BehaviorDescriptor();
+        return new Or_Test_BehaviorDescriptor();
       case 2:
-        return new AndComponentLCDTemperature_BehaviorDescriptor();
+        return new And_Component_LCD_Temperature_BehaviorDescriptor();
       case 10:
-        return new UsePreviousState_BehaviorDescriptor();
+        return new Use_Previous_State_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.AndComponent", "ArduinoML.structure.AndComponentLCDTemperature", "ArduinoML.structure.AndTest", "ArduinoML.structure.Component_IN", "ArduinoML.structure.Component_OUT", "ArduinoML.structure.LCD", "ArduinoML.structure.Machine_State", "ArduinoML.structure.OrTest", "ArduinoML.structure.Sketch", "ArduinoML.structure.UsePreviousState"};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"ArduinoML.structure.Action", "ArduinoML.structure.And_Component", "ArduinoML.structure.And_Component_LCD_Temperature", "ArduinoML.structure.And_Test", "ArduinoML.structure.Component_IN", "ArduinoML.structure.Component_OUT", "ArduinoML.structure.LCD", "ArduinoML.structure.Machine_State", "ArduinoML.structure.Or_Test", "ArduinoML.structure.Sketch", "ArduinoML.structure.Use_Previous_State"};
 }

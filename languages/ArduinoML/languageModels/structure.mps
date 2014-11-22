@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="27">
+<model modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="32">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="4fqr" modelUID="r:fa713d69-08ea-4732-b1f2-cb07f9e103ef(jetbrains.mps.execution.util.structure)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
-  <import index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="27" implicit="yes" />
+  <import index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="32" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1275236291302451753" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Named_Element" />
     <property name="abstract" nameId="tpce.4628067390765956802" value="true" />
@@ -26,7 +26,7 @@
     </node>
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6743260208045728173" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="signal" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="1275236291302714870" resolveInfo="SignalType" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="1275236291302714870" resolveInfo="Signal_Type" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1275236291302713118" nodeInfo="ig">
@@ -35,7 +35,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6743260208045728114" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="andComponents" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="5961443109978821638" resolveInfo="AndComponent" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5961443109978821638" resolveInfo="And_Component" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="1275236291302763265" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -46,7 +46,7 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7122776117853480333" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="usePreviousState" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="7122776117853128669" resolveInfo="UsePreviousState" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="7122776117853128669" resolveInfo="Use_Previous_State" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1275236291302713123" nodeInfo="ig">
@@ -91,11 +91,11 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6743260208045728055" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="andTests" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="6743260208045398863" resolveInfo="AndTest" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6743260208045398863" resolveInfo="And_Test" />
     </node>
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="1275236291302714870" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="SignalType" />
+    <property name="name" nameId="tpck.1169194664001" value="Signal_Type" />
     <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
     <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="1275236291302714871" nodeInfo="ig">
       <property name="externalValue" nameId="tpce.1083923523172" value="analogic" />
@@ -107,7 +107,7 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6743260208045398863" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="AndTest" />
+    <property name="name" nameId="tpck.1169194664001" value="And_Test" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="7566270540795075176" resolveInfo="Test" />
   </root>
   <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6743260208045728146" nodeInfo="ng">
@@ -149,12 +149,12 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5961443109978821638" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="AndComponent" />
+    <property name="name" nameId="tpck.1169194664001" value="And_Component" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5961443109978821675" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
       <property name="role" nameId="tpce.1071599776563" value="and" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="5961443109978821638" resolveInfo="AndComponent" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5961443109978821638" resolveInfo="And_Component" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5961443109978837025" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
@@ -191,12 +191,12 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7566270540795180411" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="OrTest" />
+    <property name="name" nameId="tpck.1169194664001" value="Or_Test" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="7566270540795075176" resolveInfo="Test" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4954859863373206605" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="AndComponentLCDTemperature" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="5961443109978821638" resolveInfo="AndComponent" />
+    <property name="name" nameId="tpck.1169194664001" value="And_Component_LCD_Temperature" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="5961443109978821638" resolveInfo="And_Component" />
     <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="4954859863373262018" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="sentence" />
       <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
@@ -208,7 +208,7 @@
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7122776117853128669" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="UsePreviousState" />
+    <property name="name" nameId="tpck.1169194664001" value="Use_Previous_State" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="7122776117853184040" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />

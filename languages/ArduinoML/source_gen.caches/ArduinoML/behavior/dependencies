@@ -6,19 +6,19 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="ArduinoML.behavior.AndComponentLCDTemperature_BehaviorDescriptor" file="AndComponentLCDTemperature_BehaviorDescriptor.java">
-    <classNode dependClassName="ArduinoML.behavior.AndComponent_BehaviorDescriptor" />
-    <classNode dependClassName="java.lang.Override" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
-  </dependency>
-  <dependency className="ArduinoML.behavior.AndComponent_BehaviorDescriptor" file="AndComponent_BehaviorDescriptor.java">
+  <dependency className="ArduinoML.behavior.And_Component_BehaviorDescriptor" file="And_Component_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="ArduinoML.behavior.AndTest_BehaviorDescriptor" file="AndTest_BehaviorDescriptor.java">
+  <dependency className="ArduinoML.behavior.And_Component_LCD_Temperature_BehaviorDescriptor" file="And_Component_LCD_Temperature_BehaviorDescriptor.java">
+    <classNode dependClassName="ArduinoML.behavior.And_Component_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="ArduinoML.behavior.And_Test_BehaviorDescriptor" file="And_Test_BehaviorDescriptor.java">
     <classNode dependClassName="ArduinoML.behavior.Test_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -26,16 +26,16 @@
   </dependency>
   <dependency className="ArduinoML.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
     <classNode dependClassName="ArduinoML.behavior.Action_BehaviorDescriptor" />
-    <classNode dependClassName="ArduinoML.behavior.AndComponentLCDTemperature_BehaviorDescriptor" />
-    <classNode dependClassName="ArduinoML.behavior.AndComponent_BehaviorDescriptor" />
-    <classNode dependClassName="ArduinoML.behavior.AndTest_BehaviorDescriptor" />
+    <classNode dependClassName="ArduinoML.behavior.And_Component_BehaviorDescriptor" />
+    <classNode dependClassName="ArduinoML.behavior.And_Component_LCD_Temperature_BehaviorDescriptor" />
+    <classNode dependClassName="ArduinoML.behavior.And_Test_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Component_IN_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Component_OUT_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.LCD_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Machine_State_BehaviorDescriptor" />
-    <classNode dependClassName="ArduinoML.behavior.OrTest_BehaviorDescriptor" />
+    <classNode dependClassName="ArduinoML.behavior.Or_Test_BehaviorDescriptor" />
     <classNode dependClassName="ArduinoML.behavior.Sketch_BehaviorDescriptor" />
-    <classNode dependClassName="ArduinoML.behavior.UsePreviousState_BehaviorDescriptor" />
+    <classNode dependClassName="ArduinoML.behavior.Use_Previous_State_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
@@ -78,7 +78,7 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="ArduinoML.behavior.OrTest_BehaviorDescriptor" file="OrTest_BehaviorDescriptor.java">
+  <dependency className="ArduinoML.behavior.Or_Test_BehaviorDescriptor" file="Or_Test_BehaviorDescriptor.java">
     <classNode dependClassName="ArduinoML.behavior.Test_BehaviorDescriptor" />
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
@@ -102,7 +102,7 @@
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
     <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
   </dependency>
-  <dependency className="ArduinoML.behavior.UsePreviousState_BehaviorDescriptor" file="UsePreviousState_BehaviorDescriptor.java">
+  <dependency className="ArduinoML.behavior.Use_Previous_State_BehaviorDescriptor" file="Use_Previous_State_BehaviorDescriptor.java">
     <classNode dependClassName="java.lang.Override" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />

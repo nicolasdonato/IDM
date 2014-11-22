@@ -168,5 +168,35 @@
     </dependencies>
     <rename id="e532.6966832599821030598" type="PROPERTY" from="in" to="pinLCD" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="27" />
+    </dependencies>
+    <rename id="e532.5961443109978821638" type="CONCEPT" from="AndComponent" to="And_Component" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="28" />
+    </dependencies>
+    <rename id="e532.6743260208045398863" type="CONCEPT" from="AndTest" to="And_Test" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="29" />
+    </dependencies>
+    <rename id="e532.4954859863373206605" type="CONCEPT" from="AndComponentLCDTemperature" to="And_Component_LCD_Temperature" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="30" />
+    </dependencies>
+    <rename id="e532.7566270540795180411" type="CONCEPT" from="OrTest" to="Or_Test" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="e532" modelUID="r:1827b833-20af-4e7b-ad14-6906ab759a70(ArduinoML.structure)" version="31" />
+    </dependencies>
+    <rename id="e532.7122776117853128669" type="CONCEPT" from="UsePreviousState" to="Use_Previous_State" />
+  </StructureModification>
 </history>
 

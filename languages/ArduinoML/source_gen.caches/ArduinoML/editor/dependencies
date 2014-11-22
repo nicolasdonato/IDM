@@ -20,7 +20,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
   </dependency>
-  <dependency className="ArduinoML.editor.AndComponentLCDTemperature_Editor" file="AndComponentLCDTemperature_Editor.java">
+  <dependency className="ArduinoML.editor.And_Component_Editor" file="And_Component_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -40,7 +40,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
   </dependency>
-  <dependency className="ArduinoML.editor.AndComponent_Editor" file="AndComponent_Editor.java">
+  <dependency className="ArduinoML.editor.And_Component_LCD_Temperature_Editor" file="And_Component_LCD_Temperature_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -60,7 +60,7 @@
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.InlineCellProvider" />
   </dependency>
-  <dependency className="ArduinoML.editor.AndTest_Editor" file="AndTest_Editor.java">
+  <dependency className="ArduinoML.editor.And_Test_Editor" file="And_Test_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -115,16 +115,16 @@
   </dependency>
   <dependency className="ArduinoML.editor.EditorAspectDescriptorImpl" file="EditorAspectDescriptorImpl.java">
     <classNode dependClassName="ArduinoML.editor.Action_Editor" />
-    <classNode dependClassName="ArduinoML.editor.AndComponentLCDTemperature_Editor" />
-    <classNode dependClassName="ArduinoML.editor.AndComponent_Editor" />
-    <classNode dependClassName="ArduinoML.editor.AndTest_Editor" />
+    <classNode dependClassName="ArduinoML.editor.And_Component_Editor" />
+    <classNode dependClassName="ArduinoML.editor.And_Component_LCD_Temperature_Editor" />
+    <classNode dependClassName="ArduinoML.editor.And_Test_Editor" />
     <classNode dependClassName="ArduinoML.editor.Component_IN_Editor" />
     <classNode dependClassName="ArduinoML.editor.Component_OUT_Editor" />
     <classNode dependClassName="ArduinoML.editor.LCD_Editor" />
     <classNode dependClassName="ArduinoML.editor.Machine_State_Editor" />
-    <classNode dependClassName="ArduinoML.editor.OrTest_Editor" />
+    <classNode dependClassName="ArduinoML.editor.Or_Test_Editor" />
     <classNode dependClassName="ArduinoML.editor.Sketch_Editor" />
-    <classNode dependClassName="ArduinoML.editor.UsePreviousState_Editor" />
+    <classNode dependClassName="ArduinoML.editor.Use_Previous_State_Editor" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.util.Arrays" />
     <classNode dependClassName="java.util.Collection" />
@@ -169,7 +169,7 @@
     <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="ArduinoML.editor.OrTest_Editor" file="OrTest_Editor.java">
+  <dependency className="ArduinoML.editor.Or_Test_Editor" file="Or_Test_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleAttributes" />
     <classNode dependClassName="jetbrains.mps.editor.runtime.style.StyleImpl" />
@@ -213,7 +213,7 @@
     <classNode extendsClassName="jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler" />
     <classNode extendsClassName="jetbrains.mps.nodeEditor.DefaultNodeEditor" />
   </dependency>
-  <dependency className="ArduinoML.editor.UsePreviousState_Editor" file="UsePreviousState_Editor.java">
+  <dependency className="ArduinoML.editor.Use_Previous_State_Editor" file="Use_Previous_State_Editor.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider" />
     <classNode dependClassName="jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider" />
