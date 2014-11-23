@@ -1,16 +1,22 @@
-int prev = LOW;
+int prevState2 = LOW;
+int prevState3 = LOW;
 void setup() {
-  pinMode(8, INPUT);
-  pinMode(12, INPUT);  
-  pinMode(11, INPUT);  
+    pinMode(8, INPUT);
+    pinMode(11, OUTPUT);
+    pinMode(12, OUTPUT);
 }
+
 void loop() {
-  if (digitalRead(8) == HIGH && prev == LOW) {
-    digitalWrite(12, HIGH);
-    digitalWrite(11, LOW);    
-  } else if (prev == HIGH){
-    digitalWrite(12, LOW);
-    digitalWrite(11, HIGH);  
-  }
-  prev = digitalRead(8);  
+    if (digitalRead(8) == HIGH && prevState2 == LOW) {
+        digitalWrite(11, HIGH);
+        digitalWrite(12, LOW);
+    } else if (digitalRead(8) == LOW && prevState3 == HIGH) {
+        digitalWrite(11, LOW);
+        digitalWrite(12, HIGH);
+    } else if (digitalRead(8) == LOW) {
+        digitalWrite(11, LOW);
+        digitalWrite(12, LOW);
+    }
+    prevState2 = digitalRead(8);
+    prevState3 = digitalRead(8);
 }

@@ -2,22 +2,22 @@
 <dependencies version="2" modelHash="-dxadh1rkjkk6chz18xokc36ujdt5y4o">
   <common hash="-c6e7qwkoti1hx0bhxv7m8gs1xwjlcqw" />
   <source id="6743260208045728251" name="Sketch1-Very_Simple_Alarm" hash="2j3otg8vgupv9tytf92f1mf2lvf8yxj">
-    <file name="Sketch1-Very_Simple_Alarm.txt" />
+    <file name="Sketch1-Very_Simple_Alarm.ino" />
   </source>
   <source id="5961443109979005090" name="Sketch_Ext1-Handling_Analogical_Bricks" hash="-7bc526m2hianc8gszcglehwdzogo2v7">
-    <file name="Sketch_Ext1-Handling_Analogical_Bricks.txt" />
+    <file name="Sketch_Ext1-Handling_Analogical_Bricks.ino" />
   </source>
   <source id="1289569606770260318" name="Sketch_Ext2-Supporting_the_LCD_screen" hash="46b74stqagi14p1485mvu8xgp2huxeu">
-    <file name="Sketch_Ext2-Supporting_the_LCD_screen.txt" />
+    <file name="Sketch_Ext2-Supporting_the_LCD_screen.ino" />
   </source>
   <source id="7566270540795072619" name="Sketch2-Dual_Check_Alarm" hash="-yox1620q62aekyb6ia3ebq0chu6i1i">
-    <file name="Sketch2-Dual_Check_Alarm.txt" />
+    <file name="Sketch2-Dual_Check_Alarm.ino" />
   </source>
   <source id="476062208239968535" name="Sketch3-State_Based_Alarm" hash="33wjl06plkvk1f8hhux0fx1soi0wm7n">
-    <file name="Sketch3-State_Based_Alarm.txt" />
+    <file name="Sketch3-State_Based_Alarm.ino" />
   </source>
   <source id="7122776117853649434" name="Sketch4-Multi_State_Alarm" hash="98e6g8y1xfjf670xejywkaq6dd8nat8">
-    <file name="Sketch4-Multi_State_Alarm.txt" />
+    <file name="Sketch4-Multi_State_Alarm.ino" />
   </source>
 </dependencies>
 

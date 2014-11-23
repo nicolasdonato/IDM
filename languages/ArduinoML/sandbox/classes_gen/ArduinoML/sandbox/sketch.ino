@@ -8,6 +8,7 @@ void setup() {
 }
 
 void loop() {
+    delay(250);
     if (digitalRead(8) == HIGH && prevState2 == LOW) {
         digitalWrite(11, HIGH);
         digitalWrite(12, LOW);

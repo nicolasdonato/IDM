@@ -74,6 +74,8 @@ public class Sketch_TextGen extends SNodeTextGen {
     this.append("void loop() {");
     {
       this.increaseDepth();
+      this.appendNewLine();
+      this.append("    delay(250);");
       boolean isFirst = true;
       for (SNode state : ListSequence.fromList(SLinkOperations.getTargets(node, "machineStates", true))) {
         if (SLinkOperations.getTarget(SLinkOperations.getTarget(state, "action", true), "andTests", true) != null) {
@@ -127,7 +129,7 @@ public class Sketch_TextGen extends SNodeTextGen {
   }
 
   public String getExtension(SNode node) {
-    return "txt";
+    return "ino";
   }
 
   @Override
