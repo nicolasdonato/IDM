@@ -210,16 +210,12 @@
       <property name="signal" nameId="e532.6743260208045728173" value="digital" />
     </node>
     <node role="components" roleId="e532.1275236291302734514" type="e532.Component_OUT" typeId="e532.1275236291302713193" id="476062208239968789" nodeInfo="ng">
-      <property name="name" nameId="e532.1275236291302507178" value="Buzzer" />
+      <property name="name" nameId="e532.1275236291302507178" value="LED" />
       <property name="pin" nameId="e532.1275236291302728373" value="12" />
       <property name="signal" nameId="e532.6743260208045728173" value="digital" />
     </node>
     <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="476062208239968781" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="Off" />
-      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And_Component" typeId="e532.5961443109978821638" id="476062208239971019" nodeInfo="ng">
-        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
-        <link role="component" roleId="e532.5961443109978837025" targetNodeId="476062208239968789" resolveInfo="Buzzer" />
-      </node>
       <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="476062208239971021" nodeInfo="ng">
         <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="7122776117853647031" resolveInfo="On" />
         <node role="andTests" roleId="e532.6743260208045728055" type="e532.And_Test" typeId="e532.6743260208045398863" id="476062208239971236" nodeInfo="ng">
@@ -227,12 +223,16 @@
           <link role="component" roleId="e532.7566270540795122589" targetNodeId="476062208239968776" resolveInfo="Button" />
         </node>
       </node>
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And_Component" typeId="e532.5961443109978821638" id="3356614837286766285" nodeInfo="ng">
+        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
+        <link role="component" roleId="e532.5961443109978837025" targetNodeId="476062208239968789" resolveInfo="LED" />
+      </node>
     </node>
     <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="7122776117853647031" nodeInfo="ng">
       <property name="name" nameId="e532.1275236291302507178" value="On" />
       <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And_Component" typeId="e532.5961443109978821638" id="7122776117853647037" nodeInfo="ng">
         <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
-        <link role="component" roleId="e532.5961443109978837025" targetNodeId="476062208239968789" resolveInfo="Buzzer" />
+        <link role="component" roleId="e532.5961443109978837025" targetNodeId="476062208239968789" resolveInfo="LED" />
       </node>
       <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="7122776117853647039" nodeInfo="ng">
         <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="476062208239968781" resolveInfo="Off" />
@@ -250,43 +250,61 @@
   <root type="e532.Sketch" typeId="e532.1275236291302713123" id="7122776117853649434" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Sketch4-Multi_State_Alarm" />
     <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="7122776117853649516" nodeInfo="ng">
-      <property name="name" nameId="e532.1275236291302507178" value="Off" />
-      <node role="usePreviousState" roleId="e532.7122776117853480333" type="e532.Use_Previous_State" typeId="e532.7122776117853128669" id="7122776117853649520" nodeInfo="ng">
-        <property name="value" nameId="e532.7122776117853184042" value="HIGH" />
-        <link role="component" roleId="e532.7122776117853184040" targetNodeId="7122776117853649498" resolveInfo="Button" />
-      </node>
+      <property name="name" nameId="e532.1275236291302507178" value="State1" />
       <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And_Component" typeId="e532.5961443109978821638" id="7122776117853649523" nodeInfo="ng">
         <property name="value" nameId="e532.5961443109978887479" value="LOW" />
         <link role="component" roleId="e532.5961443109978837025" targetNodeId="7122776117853649503" resolveInfo="Buzzer" />
         <node role="and" roleId="e532.5961443109978821675" type="e532.And_Component" typeId="e532.5961443109978821638" id="7122776117853649525" nodeInfo="ng">
-          <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
+          <property name="value" nameId="e532.5961443109978887479" value="LOW" />
           <link role="component" roleId="e532.5961443109978837025" targetNodeId="7122776117853649511" resolveInfo="LED" />
         </node>
       </node>
       <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="7122776117853649527" nodeInfo="ng">
-        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="7122776117853649529" resolveInfo="On" />
+        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="2157270637521420417" resolveInfo="State2" />
         <node role="andTests" roleId="e532.6743260208045728055" type="e532.And_Test" typeId="e532.6743260208045398863" id="7122776117853649608" nodeInfo="ng">
           <property name="value" nameId="e532.7566270540795075230" value="HIGH" />
           <link role="component" roleId="e532.7566270540795122589" targetNodeId="7122776117853649498" resolveInfo="Button" />
         </node>
       </node>
     </node>
-    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="7122776117853649529" nodeInfo="ng">
-      <property name="name" nameId="e532.1275236291302507178" value="On" />
-      <node role="usePreviousState" roleId="e532.7122776117853480333" type="e532.Use_Previous_State" typeId="e532.7122776117853128669" id="7122776117853649612" nodeInfo="ng">
-        <property name="value" nameId="e532.7122776117853184042" value="LOW" />
-        <link role="component" roleId="e532.7122776117853184040" targetNodeId="7122776117853649498" resolveInfo="Button" />
-      </node>
-      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And_Component" typeId="e532.5961443109978821638" id="7122776117853649615" nodeInfo="ng">
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="2157270637521420417" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="State2" />
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And_Component" typeId="e532.5961443109978821638" id="2157270637521438726" nodeInfo="ng">
         <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
         <link role="component" roleId="e532.5961443109978837025" targetNodeId="7122776117853649503" resolveInfo="Buzzer" />
-        <node role="and" roleId="e532.5961443109978821675" type="e532.And_Component" typeId="e532.5961443109978821638" id="7122776117853649637" nodeInfo="ng">
+        <node role="and" roleId="e532.5961443109978821675" type="e532.And_Component" typeId="e532.5961443109978821638" id="2157270637521438758" nodeInfo="ng">
           <property name="value" nameId="e532.5961443109978887479" value="LOW" />
           <link role="component" roleId="e532.5961443109978837025" targetNodeId="7122776117853649511" resolveInfo="LED" />
         </node>
       </node>
+      <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="2157270637521438760" nodeInfo="ng">
+        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="7122776117853649529" resolveInfo="State3" />
+        <node role="andTests" roleId="e532.6743260208045728055" type="e532.And_Test" typeId="e532.6743260208045398863" id="2157270637521438762" nodeInfo="ng">
+          <property name="value" nameId="e532.7566270540795075230" value="LOW" />
+          <link role="component" roleId="e532.7566270540795122589" targetNodeId="7122776117853649498" resolveInfo="Button" />
+        </node>
+      </node>
+      <node role="usePreviousState" roleId="e532.7122776117853480333" type="e532.Use_Previous_State" typeId="e532.7122776117853128669" id="2157270637521474529" nodeInfo="ng">
+        <property name="value" nameId="e532.7122776117853184042" value="LOW" />
+        <link role="component" roleId="e532.7122776117853184040" targetNodeId="7122776117853649498" resolveInfo="Button" />
+      </node>
+    </node>
+    <node role="machineStates" roleId="e532.1275236291302731468" type="e532.Machine_State" typeId="e532.1275236291302713118" id="7122776117853649529" nodeInfo="ng">
+      <property name="name" nameId="e532.1275236291302507178" value="State3" />
+      <node role="usePreviousState" roleId="e532.7122776117853480333" type="e532.Use_Previous_State" typeId="e532.7122776117853128669" id="7122776117853649612" nodeInfo="ng">
+        <property name="value" nameId="e532.7122776117853184042" value="HIGH" />
+        <link role="component" roleId="e532.7122776117853184040" targetNodeId="7122776117853649498" resolveInfo="Button" />
+      </node>
+      <node role="andComponents" roleId="e532.6743260208045728114" type="e532.And_Component" typeId="e532.5961443109978821638" id="7122776117853649615" nodeInfo="ng">
+        <property name="value" nameId="e532.5961443109978887479" value="LOW" />
+        <link role="component" roleId="e532.5961443109978837025" targetNodeId="7122776117853649503" resolveInfo="Buzzer" />
+        <node role="and" roleId="e532.5961443109978821675" type="e532.And_Component" typeId="e532.5961443109978821638" id="7122776117853649637" nodeInfo="ng">
+          <property name="value" nameId="e532.5961443109978887479" value="HIGH" />
+          <link role="component" roleId="e532.5961443109978837025" targetNodeId="7122776117853649511" resolveInfo="LED" />
+        </node>
+      </node>
       <node role="action" roleId="e532.1275236291302763265" type="e532.Action" typeId="e532.1275236291302713201" id="7122776117853649639" nodeInfo="ng">
-        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="7122776117853649516" resolveInfo="Off" />
+        <link role="nextState" roleId="e532.6743260208045728053" targetNodeId="7122776117853649516" resolveInfo="State1" />
         <node role="andTests" roleId="e532.6743260208045728055" type="e532.And_Test" typeId="e532.6743260208045398863" id="7122776117853649641" nodeInfo="ng">
           <property name="value" nameId="e532.7566270540795075230" value="LOW" />
           <link role="component" roleId="e532.7566270540795122589" targetNodeId="7122776117853649498" resolveInfo="Button" />

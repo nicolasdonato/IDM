@@ -10,6 +10,9 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="e532.6743260208045398863" resolveInfo="And_Test" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6743260208045785683" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Indent" typeId="tpc2.1198256887712" id="6743260208045820068" nodeInfo="ng" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3356614837287287008" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="AND" />
+      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="7566270540795133806" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="e532.7566270540795122589" />
         <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="7566270540795133808" nodeInfo="ng">
@@ -375,6 +378,9 @@
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="e532.7566270540795180411" resolveInfo="Or_Test" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7566270540795248798" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Indent" typeId="tpc2.1198256887712" id="7566270540795248808" nodeInfo="ng" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="3356614837287286981" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="OR" />
+      </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="7566270540795248814" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="e532.7566270540795122589" />
         <node role="editorComponent" roleId="tpc2.1088186146602" type="tpc2.InlineEditorComponent" typeId="tpc2.1088185857835" id="7566270540795248816" nodeInfo="ng">
